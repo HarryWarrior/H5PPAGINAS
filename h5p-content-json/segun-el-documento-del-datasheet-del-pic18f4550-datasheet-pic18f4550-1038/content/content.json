@@ -1,0 +1,439 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<p>Seg\u00fan el documento del Datasheet del PIC18F4550 &nbsp;<a href=\"https:\/\/ww1.microchip.com\/downloads\/en\/devicedoc\/39632e.pdf\" id=\"yui_3_18_1_1_1713288984725_1453\" target=\"_blank\">Datasheet PIC18F4550<\/a>&nbsp;<\/p>\n\n<p>Responda las siguientes preguntas:<\/p>\n"
+                },
+                "library": "H5P.AdvancedText 1.1",
+                "metadata": {
+                    "contentType": "Text",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Text"
+                },
+                "subContentId": "429c8d90-bc47-4d20-a2f3-6e523ff6314a"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "introPage": {
+                        "showIntroPage": false,
+                        "startButtonText": "Comenzar Examen",
+                        "introduction": ""
+                    },
+                    "progressType": "dots",
+                    "passPercentage": 50,
+                    "disableBackwardsNavigation": false,
+                    "randomQuestions": false,
+                    "endGame": {
+                        "showResultPage": true,
+                        "showSolutionButton": true,
+                        "showRetryButton": true,
+                        "noResultMessage": "Terminado",
+                        "message": "Su resultado:",
+                        "overallFeedback": [
+                            {
+                                "from": 0,
+                                "to": 100
+                            }
+                        ],
+                        "solutionButtonText": "Mostrar soluci\u00f3n",
+                        "retryButtonText": "Reintentar",
+                        "finishButtonText": "Terminar",
+                        "showAnimations": false,
+                        "skippable": false,
+                        "skipButtonText": "Saltar video"
+                    },
+                    "texts": {
+                        "prevButton": "Pregunta anterior",
+                        "nextButton": "Pregunta siguiente",
+                        "finishButton": "Terminar",
+                        "textualProgress": "Pregunta: @current de @total preguntas",
+                        "jumpToQuestion": "Pregunta %d de %total",
+                        "questionLabel": "Pregunta",
+                        "readSpeakerProgress": "Pregunta @current de @total",
+                        "unansweredText": "No contestada",
+                        "answeredText": "Contestada",
+                        "currentQuestionText": "Pregunta actual"
+                    },
+                    "override": {
+                        "checkButton": true
+                    },
+                    "backgroundImage": {
+                        "path": "images\/backgroundImage-661eb8f0a00e2.jpg",
+                        "mime": "image\/jpeg",
+                        "copyright": {
+                            "license": "U"
+                        },
+                        "width": 356,
+                        "height": 171
+                    },
+                    "questions": [
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la frecuencia m\u00e1xima de reloj (oscilador) soportada por el microcontrolador PIC18?",
+                                "answers": [
+                                    {
+                                        "text": "a) 4 MHz",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "b) 8 MHz",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "c) 64 MHz",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "0bc1eee3-df47-4ceb-8939-6c41c6e1289b",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1ntos puertos de E\/S (entrada\/salida) tiene el PIC18F4550?",
+                                "answers": [
+                                    {
+                                        "text": "a) 33",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "b) 16",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "c) 8",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "aa366106-199e-490d-b9b4-b4695ebab1f5",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1ntos registros de prop\u00f3sito especial (SFR) tiene el PIC18F4550?",
+                                "answers": [
+                                    {
+                                        "text": "a) 393",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "b) 256",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "c) 128",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "d34e7008-5d3b-4a52-8c66-22f8291802ce",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la resoluci\u00f3n del conversor anal\u00f3gico-digital (ADC) del PIC18F4550?",
+                                "answers": [
+                                    {
+                                        "text": "a) 8 bits",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "b) 10 bits",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "c) 12 bits",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "d2916e9e-712a-450e-b3e2-f4b5502ae1af",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la corriente m\u00e1xima de salida por pin del PIC18F4550?",
+                                "answers": [
+                                    {
+                                        "text": "a) 25 mA",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "b) 10 mA",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "c) 50 mA",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        }
+                    ]
+                },
+                "library": "H5P.QuestionSet 1.17",
+                "metadata": {
+                    "contentType": "Question Set",
+                    "license": "U",
+                    "title": "Lectura de Datasheets del PIC18F4550"
+                },
+                "subContentId": "c952315c-12cb-45e2-b441-10ba1ea10270"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

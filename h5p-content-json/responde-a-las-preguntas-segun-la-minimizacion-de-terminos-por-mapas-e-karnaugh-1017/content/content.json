@@ -1,0 +1,336 @@
+{
+    "introPage": {
+        "showIntroPage": false,
+        "startButtonText": "Iniciar prueba",
+        "introduction": ""
+    },
+    "progressType": "dots",
+    "passPercentage": 50,
+    "disableBackwardsNavigation": false,
+    "randomQuestions": false,
+    "endGame": {
+        "showResultPage": true,
+        "showSolutionButton": true,
+        "showRetryButton": true,
+        "noResultMessage": "Terminado",
+        "message": "Tu resultado:",
+        "scoreBarLabel": "Has conseguido @finals de @totals puntos",
+        "overallFeedback": [
+            {
+                "from": 0,
+                "to": 100
+            }
+        ],
+        "solutionButtonText": "Mostrar soluci\u00f3n",
+        "retryButtonText": "Intentar de nuevo",
+        "finishButtonText": "Terminar",
+        "submitButtonText": "Enviar",
+        "showAnimations": false,
+        "skippable": false,
+        "skipButtonText": "Saltar v\u00eddeo"
+    },
+    "override": {
+        "checkButton": true
+    },
+    "texts": {
+        "prevButton": "Pregunta anterior",
+        "nextButton": "Pregunta siguiente",
+        "finishButton": "Terminar",
+        "submitButton": "Enviar",
+        "textualProgress": "Pregunta: @current de @total preguntas",
+        "jumpToQuestion": "Pregunta %d de %total",
+        "questionLabel": "Pregunta",
+        "readSpeakerProgress": "Pregunta @current de @total",
+        "unansweredText": "No contestada",
+        "answeredText": "Contestada",
+        "currentQuestionText": "Pregunta actual",
+        "navigationLabel": "Preguntas"
+    },
+    "questions": [
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfCu\u00e1l es la secuencia correcta para llenar un mapa de Karnaugh?",
+                "answers": [
+                    {
+                        "text": "Colocar un 1 en las celdas que representan los minterminos de la funci\u00f3n.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "<div>Esto es correcto, ya que los minterminos representan los valores de verdad donde la funci\u00f3n es verdadera<\/div>\n",
+                            "notChosenFeedback": "<div>Si no eliges esta opci\u00f3n, podr\u00edas confundir la forma de representar los valores de verdad en el mapa.<\/div>\n"
+                        }
+                    },
+                    {
+                        "text": "Colocar un 0 en todas las celdas y luego cambiarlas a 1 si es necesario.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Colocar un X en las celdas que no afectan la funci\u00f3n.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "9b3cca5c-f9fa-477e-83ff-236790496685",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfQu\u00e9 representa un grupo de unos en un mapa de Karnaugh?",
+                "answers": [
+                    {
+                        "text": "Un t\u00e9rmino que puede ser simplificado",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "La eliminaci\u00f3n de variables que no cambian dentro del grupo.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "<div>Correcto, al agrupar los unos, simplificamos la expresi\u00f3n eliminando las variables constantes..<\/div>\n",
+                            "notChosenFeedback": "<div>Si no eliges esta opci\u00f3n, podr\u00edas perder la oportunidad de simplificar la expresi\u00f3n booleana<\/div>\n"
+                        }
+                    },
+                    {
+                        "text": "Una celda que debe cambiarse a cero",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "996d3920-a8fa-496d-893c-9507e5aead9b",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "En la simplificaci\u00f3n de funciones booleanas, \u00bfqu\u00e9 significa un t\u00e9rmino como \\overline{A}B ?",
+                "answers": [
+                    {
+                        "text": "A representa un 0 y B un 1 en ese t\u00e9rmino de la funci\u00f3n.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "<div>Esta es la interpretaci\u00f3n correcta de la barra sobre la variable A.<\/div>\n",
+                            "notChosenFeedback": "<div>Si no eliges esta opci\u00f3n, podr\u00edas interpretar incorrectamente los valores de las variables en la expresi\u00f3n.<\/div>\n"
+                        }
+                    },
+                    {
+                        "text": "A y B son t\u00e9rminos independientes y no relacionados",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "A y B siempre suman 2",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "ba5ce30e-0ba8-44f9-8d36-d33c034db400",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        }
+    ]
+}

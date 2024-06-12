@@ -1,0 +1,219 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<p>En este ejercicio pr\u00e1ctico, aprender\u00e1s a utilizar un microcontrolador Arduino para controlar un conjunto de LEDs. Los LEDs se encender\u00e1n secuencialmente, creando un efecto de \"carrera de luces\"<\/p>\n\n<p>Materiales necesarios:&nbsp;<\/p>\n\n<ul>\n\t<li>Placa Arduino (cualquier modelo compatible).<\/li>\n\t<li>Cable USB para conectar la placa Arduino a la computadora.<\/li>\n\t<li>Resistencias de 220 ohmios.<\/li>\n\t<li>LEDs de colores variados (por lo menos 3).<\/li>\n\t<li>Protoboard para montaje de circuitos.<\/li>\n\t<li>\n\t<p><strong>Instrucciones:<\/strong><\/p>\n\t<\/li>\n\t<li>Conecta tu placa Arduino a la computadora mediante el cable USB.<\/li>\n\t<li>Abre el entorno de desarrollo de Arduino en tu computadora.<\/li>\n\t<li>Crea un nuevo sketch (programa) en Arduino.<\/li>\n\t<li>Escribe el siguiente c\u00f3digo a ejecutar en ARDUINO IDE:<\/li>\n\t<li>Conecta los leds con la resistencia en serie en los pines de acuerdo al c\u00f3digo<\/li>\n<\/ul>\n\n<p>\/\/ Creado por Harryson Guerrero<\/p>\n\n<p>\/\/ Definici\u00f3n de pines<br>\nconst int ledPin1 = 2; \/\/ Pin para el primer LED<br>\nconst int ledPin2 = 3; \/\/ Pin para el segundo LED<br>\nconst int ledPin3 = 4; \/\/ Pin para el tercer LED<\/p>\n\n<p>\/\/ Tiempo de espera entre encendido de LEDs (en milisegundos)<br>\nconst int delayTime = 500;<\/p>\n\n<p>void setup() {<br>\n&nbsp; \/\/ Configurar los pines de los LEDs como salidas<br>\n&nbsp; pinMode(ledPin1, OUTPUT);<br>\n&nbsp; pinMode(ledPin2, OUTPUT);<br>\n&nbsp; pinMode(ledPin3, OUTPUT);<br>\n}<\/p>\n\n<p>void loop() {<br>\n&nbsp; \/\/ Encender el primer LED y apagar los dem\u00e1s<br>\n&nbsp; digitalWrite(ledPin1, HIGH);<br>\n&nbsp; digitalWrite(ledPin2, LOW);<br>\n&nbsp; digitalWrite(ledPin3, LOW);<br>\n&nbsp; delay(delayTime);<\/p>\n\n<p>&nbsp; \/\/ Encender el segundo LED y apagar los dem\u00e1s<br>\n&nbsp; digitalWrite(ledPin1, LOW);<br>\n&nbsp; digitalWrite(ledPin2, HIGH);<br>\n&nbsp; digitalWrite(ledPin3, LOW);<br>\n&nbsp; delay(delayTime);<\/p>\n\n<p>&nbsp; \/\/ Encender el tercer LED y apagar los dem\u00e1s<br>\n&nbsp; digitalWrite(ledPin1, LOW);<br>\n&nbsp; digitalWrite(ledPin2, LOW);<br>\n&nbsp; digitalWrite(ledPin3, HIGH);<br>\n&nbsp; delay(delayTime);<br>\n}<br>\n&nbsp;<\/p>\n"
+                },
+                "library": "H5P.AdvancedText 1.1",
+                "metadata": {
+                    "contentType": "Text",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Text"
+                },
+                "subContentId": "5dedbe0c-ce89-4dad-8455-1fc34571e291"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "introPage": {
+                        "showIntroPage": false,
+                        "startButtonText": "Comenzar Examen",
+                        "introduction": ""
+                    },
+                    "progressType": "dots",
+                    "passPercentage": 50,
+                    "disableBackwardsNavigation": false,
+                    "randomQuestions": false,
+                    "endGame": {
+                        "showResultPage": true,
+                        "showSolutionButton": true,
+                        "showRetryButton": true,
+                        "noResultMessage": "Terminado",
+                        "message": "Su resultado:",
+                        "overallFeedback": [
+                            {
+                                "from": 0,
+                                "to": 100
+                            }
+                        ],
+                        "solutionButtonText": "Mostrar soluci\u00f3n",
+                        "retryButtonText": "Reintentar",
+                        "finishButtonText": "Terminar",
+                        "showAnimations": false,
+                        "skippable": false,
+                        "skipButtonText": "Saltar video"
+                    },
+                    "texts": {
+                        "prevButton": "Pregunta anterior",
+                        "nextButton": "Pregunta siguiente",
+                        "finishButton": "Terminar",
+                        "textualProgress": "Pregunta: @current de @total preguntas",
+                        "jumpToQuestion": "Pregunta %d de %total",
+                        "questionLabel": "Pregunta",
+                        "readSpeakerProgress": "Pregunta @current de @total",
+                        "unansweredText": "No contestada",
+                        "answeredText": "Contestada",
+                        "currentQuestionText": "Pregunta actual"
+                    },
+                    "override": {
+                        "checkButton": true
+                    },
+                    "backgroundImage": {
+                        "path": "images\/backgroundImage-661d4a0d77d02.JPG",
+                        "mime": "image\/jpeg",
+                        "copyright": {
+                            "license": "U"
+                        },
+                        "width": 640,
+                        "height": 342
+                    },
+                    "questions": [
+                        {
+                            "params": {
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "answers": [
+                                    {
+                                        "text": "digitalWrite Configura un pin como entrada o salida.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "analogRead  Lee un valor anal\u00f3gico de un pin.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "analogWrite Escribe un valor anal\u00f3gico en un pin.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                },
+                                "question": "\u00bfQu\u00e9 hace la funci\u00f3n pinMode() en Arduino?"
+                            },
+                            "library": "H5P.MultiChoice 1.14",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Selecci\u00f3ne la respuesta correcta"
+                            },
+                            "subContentId": "09e405a5-c37d-417e-9735-b8d959b2a094"
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfPor qu\u00e9 es necesario utilizar resistencias en serie con los LEDs?",
+                                "answers": [
+                                    {
+                                        "text": "Para limitar la corriente que pasa a trav\u00e9s del LED",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Las resistencias protegen los LEDs de recibir demasiada corriente, lo que podr\u00eda da\u00f1arlos.",
+                                            "chosenFeedback": "Correcto, las resistencias limitan la cantidad de corriente que pasa a trav\u00e9s del LED, protegi\u00e9ndolo de da\u00f1os."
+                                        }
+                                    },
+                                    {
+                                        "text": "Para aumentar la luminosidad del LED",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Las resistencias no afectan la luminosidad del LED.",
+                                            "chosenFeedback": "Incorrecto, las resistencias limitan la corriente y no afectan directamente la luminosidad del LED."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 pasar\u00eda si omiti\u00e9ramos la funci\u00f3n delay() en el c\u00f3digo?",
+                                "answers": [
+                                    {
+                                        "text": "Los LEDs se encender\u00edan tan r\u00e1pido que apenas se ver\u00edan parpadeos.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "La funci\u00f3n delay() pausa la ejecuci\u00f3n del programa durante un per\u00edodo espec\u00edfico, sin ella, el programa ejecutar\u00eda las instrucciones muy r\u00e1pido.",
+                                            "chosenFeedback": "Correcto, el tiempo de espera entre encendidos ser\u00eda tan corto que los LEDs parpadear\u00edan casi instant\u00e1neamente."
+                                        }
+                                    },
+                                    {
+                                        "text": "El programa se ejecutar\u00eda m\u00e1s lentamente.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "La falta de delay() har\u00eda que el programa se ejecutara m\u00e1s r\u00e1pido, no m\u00e1s lento.",
+                                            "chosenFeedback": "Incorrecto, omitir delay() har\u00eda que el programa se ejecutara m\u00e1s r\u00e1pido, no m\u00e1s lento."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        }
+                    ]
+                },
+                "library": "H5P.QuestionSet 1.17",
+                "metadata": {
+                    "contentType": "Question Set",
+                    "license": "U",
+                    "title": "Responda estas preguntas seg\u00fan el ejercicio practico desarrollado"
+                },
+                "subContentId": "4888dfe4-7184-47c8-bde7-86ef454a627a"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

@@ -1,0 +1,526 @@
+{
+    "introPage": {
+        "showIntroPage": false,
+        "startButtonText": "Iniciar prueba",
+        "introduction": ""
+    },
+    "progressType": "dots",
+    "passPercentage": 50,
+    "disableBackwardsNavigation": false,
+    "randomQuestions": false,
+    "endGame": {
+        "showResultPage": true,
+        "showSolutionButton": true,
+        "showRetryButton": true,
+        "noResultMessage": "Terminado",
+        "message": "Tu resultado:",
+        "scoreBarLabel": "Has conseguido @finals de @totals puntos",
+        "overallFeedback": [
+            {
+                "from": 0,
+                "to": 100
+            }
+        ],
+        "solutionButtonText": "Mostrar soluci\u00f3n",
+        "retryButtonText": "Intentar de nuevo",
+        "finishButtonText": "Terminar",
+        "submitButtonText": "Enviar",
+        "showAnimations": false,
+        "skippable": false,
+        "skipButtonText": "Saltar v\u00eddeo"
+    },
+    "override": {
+        "checkButton": true
+    },
+    "texts": {
+        "prevButton": "Pregunta anterior",
+        "nextButton": "Pregunta siguiente",
+        "finishButton": "Terminar",
+        "submitButton": "Enviar",
+        "textualProgress": "Pregunta: @current de @total preguntas",
+        "jumpToQuestion": "Pregunta %d de %total",
+        "questionLabel": "Pregunta",
+        "readSpeakerProgress": "Pregunta @current de @total",
+        "unansweredText": "No contestada",
+        "answeredText": "Contestada",
+        "currentQuestionText": "Pregunta actual",
+        "navigationLabel": "Preguntas"
+    },
+    "questions": [
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "<p>\u00bfC\u00f3mo se puede generar una funci\u00f3n l\u00f3gica a partir de un decodificador binario con salidas activas a nivel bajo?<\/p>\n",
+                "answers": [
+                    {
+                        "text": "Se puede generar una funci\u00f3n l\u00f3gica a partir de un decodificador binario con salidas activas a nivel bajo utilizando las salidas del decodificador como maxit\u00e9rminos de la funci\u00f3n.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Se puede generar una funci\u00f3n l\u00f3gica a partir de un decodificador binario con salidas activas a nivel bajo utilizando las entradas del decodificador como minit\u00e9rminos de la funci\u00f3n.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Se puede generar una funci\u00f3n l\u00f3gica a partir de un decodificador binario con salidas activas a nivel bajo utilizando las salidas del decodificador como entradas de la funci\u00f3n.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "8e31cf84-c491-4613-b89d-c6aea24e74bb",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "\u00bfC\u00f3mo se puede generar una funci\u00f3n l\u00f3gica a partir de un decodificador binario con salidas activas a nivel bajo?"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "<p>\u00bfQu\u00e9 son los maxit\u00e9rminos y c\u00f3mo se relacionan con las salidas de un decodificador binario?<\/p>\n",
+                "answers": [
+                    {
+                        "text": "Los maxit\u00e9rminos son t\u00e9rminos de una funci\u00f3n booleana que se hacen verdaderos cuando todas sus variables son falsas. En un decodificador binario, cada salida representa un maxit\u00e9rmino.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Los maxit\u00e9rminos son t\u00e9rminos de una funci\u00f3n booleana que se hacen falsos cuando todas sus variables son verdaderas. En un decodificador binario, cada salida representa un minit\u00e9rmino.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Los maxit\u00e9rminos son t\u00e9rminos de una funci\u00f3n booleana que se hacen verdaderos cuando todas sus variables son verdaderas. En un decodificador binario, cada salida representa un minit\u00e9rmino.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "758c97c9-0286-4cd2-ab79-f9f40423737a",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "\u00bfQu\u00e9 son los maxit\u00e9rminos y c\u00f3mo se relacionan con las salidas de un decodificador binario?"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "<p>Bas\u00e1ndote en la Figura 2 del documento, \u00bfcu\u00e1les son los maxit\u00e9rminos correspondientes a las salidas de un decodificador de 2 a 4 y c\u00f3mo se implementar\u00edan en un circuito?<\/p>\n",
+                "answers": [
+                    {
+                        "text": "Los maxit\u00e9rminos correspondientes a las salidas de un decodificador de 2 a 4 son m0, m1, m2 y m3. Se implementar\u00edan en un circuito utilizando puertas AND y NOT.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Los maxit\u00e9rminos correspondientes a las salidas de un decodificador de 2 a 4 son m0, m1, m2 y m3. Se implementar\u00edan en un circuito utilizando puertas OR y NOT.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Los maxit\u00e9rminos correspondientes a las salidas de un decodificador de 2 a 4 son m0, m1, m2 y m3. Se implementar\u00edan en un circuito utilizando puertas XOR y NOT.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "ff661b64-c2d4-44ba-aaeb-167785194249",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "\u00bfcu\u00e1les son los maxit\u00e9rminos correspondientes a las salidas de un decodificador de 2 a 4 y c\u00f3mo se implementar\u00edan en un circuito?"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "<p>Si una funci\u00f3n l\u00f3gica tiene m\u00e1s ceros que unos en su salida, \u00bfser\u00eda m\u00e1s eficiente utilizar una puerta AND o una puerta NAND para su implementaci\u00f3n?<\/p>\n",
+                "answers": [
+                    {
+                        "text": "Ser\u00eda m\u00e1s eficiente utilizar una puerta NAND para su implementaci\u00f3n.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Ser\u00eda m\u00e1s eficiente utilizar una puerta AND para su implementaci\u00f3n.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Ser\u00eda m\u00e1s eficiente utilizar una puerta OR para su implementaci\u00f3n.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "060e04f7-5c23-45ca-8b90-191d9f934c31",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Si una funci\u00f3n l\u00f3gica tiene m\u00e1s ceros que unos en su salida, \u00bfser\u00eda m\u00e1s eficiente utilizar una puerta AND o una puerta NAND para su implementaci\u00f3n?"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "<p>Aplica la propiedad asociativa para simplificar la implementaci\u00f3n de una funci\u00f3n l\u00f3gica dada en forma can\u00f3nica conjuntiva, y describe el proceso y el resultado obtenido.<\/p>\n",
+                "answers": [
+                    {
+                        "text": "La propiedad asociativa permite agrupar los t\u00e9rminos de la funci\u00f3n de diferentes maneras sin cambiar el resultado. El proceso consiste en identificar los t\u00e9rminos que pueden ser agrupados y simplificar la funci\u00f3n. El resultado es una funci\u00f3n m\u00e1s simple con la misma salida que la funci\u00f3n original.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "La propiedad asociativa permite agrupar los t\u00e9rminos de la funci\u00f3n de diferentes maneras cambiando el resultado. El proceso consiste en identificar los t\u00e9rminos que pueden ser agrupados y simplificar la funci\u00f3n. El resultado es una funci\u00f3n m\u00e1s compleja con la misma salida que la funci\u00f3n original.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "La propiedad asociativa permite agrupar los t\u00e9rminos de la funci\u00f3n de diferentes maneras sin cambiar el resultado. El proceso consiste en identificar los t\u00e9rminos que pueden ser agrupados y complicar la funci\u00f3n. El resultado es una funci\u00f3n m\u00e1s simple con una salida diferente a la funci\u00f3n original.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "01948f53-b9bc-463a-9a9f-96e0637b1f36",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Aplica la propiedad asociativa para simplificar la implementaci\u00f3n de una funci\u00f3n l\u00f3gica dada en forma can\u00f3nica conjuntiva, y describe el proceso y el resultado obtenido."
+            }
+        }
+    ]
+}

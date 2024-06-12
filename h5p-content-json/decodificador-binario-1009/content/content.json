@@ -1,0 +1,80 @@
+{
+    "intro": "<p>Para la funci\u00f3n l\u00f3gica F expresada por su forma can\u00f3nica disyuntiva, responde a las siguientes preguntas:<\/p>\n\n<p><strong><em>F = suma_{D,C,B,A} (1,2,6,7,11,14,15)<\/em><\/strong><\/p>\n\n<hr>\n<p>a. \u00bfQu\u00e9 tama\u00f1o de decodificador binario necesitamos para implementarla?<\/p>\n\n<p>b. Si utilizamos una puerta OR, \u00bfDe cu\u00e1ntas entradas ser\u00e1 la puerta?<\/p>\n\n<p>c. Si utilizamos una puerta OR, \u00bfCu\u00e1les ser\u00e1n las salidas del decodificador que conectaremos a la puerta OR?<\/p>\n\n<p>d. Si utilizamos una puerta NOR, \u00bfDe cu\u00e1ntas entradas ser\u00e1 la puerta?<\/p>\n\n<p>e. Si utilizamos una puerta NOR, \u00bfCu\u00e1les ser\u00e1n las salidas del decodificador que conectaremos a la puerta NOR? f. \u00bfEs mejor utilizar una puerta OR o una puerta NOR?&nbsp;<\/p>\n",
+    "summaries": [
+        {
+            "subContentId": "1d723dc2-fae1-4ea5-b0d7-1793a765dbe6",
+            "tip": "",
+            "summary": [
+                "<p>a. De 4 entradas a 16 salidas<\/p>\n",
+                "<p>a. De 2 entradas a 8 salidas<\/p>\n"
+            ]
+        },
+        {
+            "subContentId": "40c0381e-dbb6-489e-b2c0-698140dc509c",
+            "summary": [
+                "<p>b. De 7 entradas<\/p>\n",
+                "<p>b.&nbsp;De 8 entradas<\/p>\n"
+            ],
+            "tip": ""
+        },
+        {
+            "subContentId": "fc00585f-b9e0-4c03-86d1-94122e21eadc",
+            "summary": [
+                "<p>c. S1, S2, S6, S7, S11, S14, S15<\/p>\n",
+                "<p>c. S0, S3, S4, S5, S8, S9, S10, S12, S13<\/p>\n"
+            ],
+            "tip": ""
+        },
+        {
+            "subContentId": "091282cf-f0c7-4725-a3be-29847c421ceb",
+            "summary": [
+                "<p>d. 9 Entradas<\/p>\n",
+                "<p>d. 7 Entradas<\/p>\n"
+            ],
+            "tip": ""
+        },
+        {
+            "subContentId": "50ab1668-27ef-42a0-be84-a9b9ad659a2b",
+            "summary": [
+                "<p>e. S0, S3, S4, S5, S8, S9, S10, S12, S13<\/p>\n",
+                "<p>e. S1, S2, S6, S7, S11, S14, S15<\/p>\n"
+            ],
+            "tip": ""
+        },
+        {
+            "subContentId": "874b67d9-bda7-44f3-a683-e2576ec047dc",
+            "summary": [
+                "<p>f. La puerta OR necesita dos entradas menos que la puerta NOR, por lo que parece mejor utilizar la OR.<\/p>\n",
+                "<p>f.&nbsp; La puerta NOR necesita dos entradas menos que la puerta OR, por lo que parece mejor utilizar la NOR.<\/p>\n"
+            ],
+            "tip": ""
+        }
+    ],
+    "overallFeedback": [
+        {
+            "from": 0,
+            "to": 50,
+            "feedback": "Regular"
+        },
+        {
+            "from": 51,
+            "to": 80,
+            "feedback": "Bien"
+        },
+        {
+            "from": 81,
+            "to": 100,
+            "feedback": "Excelente"
+        }
+    ],
+    "solvedLabel": "Progreso:",
+    "scoreLabel": "Respuestas incorrectas:",
+    "resultLabel": "Tu resultado",
+    "labelCorrect": "Correcta.",
+    "labelIncorrect": "\u00a1Incorrecto! Por favor int\u00e9ntalo otra vez.",
+    "alternativeIncorrectLabel": "Incorrecto",
+    "labelCorrectAnswers": "Respuestas correctas.",
+    "tipButtonLabel": "Mostrar pista",
+    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+    "progressText": "Progreso :num de :total"
+}

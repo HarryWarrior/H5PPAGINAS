@@ -1,0 +1,49 @@
+/* Estilos con el color rojo universitario */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#exercise-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-title {
+    text-align: center;
+    color: #333;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    margin-bottom: 10px;
+}
+
+.question label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#check-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #8C1515; /* Rojo universitario */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#check-button:hover {
+    background-color: #6B0F0F; /* Rojo más oscuro al pasar el ratón */
+}

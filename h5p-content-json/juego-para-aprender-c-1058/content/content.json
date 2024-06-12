@@ -1,0 +1,38 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<ul>\n\t<li>En el siguiente juego aprender\u00e1s a hacer uso de CSS para dar estilo a tu p\u00e1gina web en HTML, aprender\u00e1s como seleccionar objetos espec\u00edficos, como dar clases y nombre de identificaci\u00f3n para que ciertos elementos tengan estilos iguales.<\/li>\n<\/ul>\n"
+                },
+                "library": "H5P.AdvancedText 1.1",
+                "metadata": {
+                    "contentType": "Text",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Text"
+                },
+                "subContentId": "304a3958-f130-4cac-8961-8135c32051ac"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "resizeSupported": true,
+                    "source": "https:\/\/flukeout.github.io\/#",
+                    "height": "1000px",
+                    "width": "1000px",
+                    "minWidth": "300px"
+                },
+                "library": "H5P.IFrameEmbed 1.0",
+                "metadata": {
+                    "contentType": "Iframe Embedder",
+                    "license": "U",
+                    "title": "JUEGO CSS"
+                },
+                "subContentId": "9cdf42b9-e453-445b-baef-94b3ebf2fec5"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

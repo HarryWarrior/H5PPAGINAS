@@ -1,0 +1,290 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<p>Seg\u00fan el documento de DATASHEET del microcontrolador STM8s105K4 obtenido en <a href=\"https:\/\/www.st.com\/resource\/en\/datasheet\/stm8s105c4.pdf\" target=\"_blank\">Datasheet STM8S105<\/a><\/p>\n\n<p>&nbsp;<\/p>\n"
+                },
+                "library": "H5P.AdvancedText 1.1",
+                "metadata": {
+                    "contentType": "Text",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Text"
+                },
+                "subContentId": "672e7b8c-3d03-47ab-b87b-f36fc5db6d58"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "introPage": {
+                        "showIntroPage": false,
+                        "startButtonText": "Comenzar Examen",
+                        "introduction": ""
+                    },
+                    "progressType": "dots",
+                    "passPercentage": 50,
+                    "disableBackwardsNavigation": false,
+                    "randomQuestions": false,
+                    "endGame": {
+                        "showResultPage": true,
+                        "showSolutionButton": true,
+                        "showRetryButton": true,
+                        "noResultMessage": "Terminado",
+                        "message": "Su resultado:",
+                        "overallFeedback": [
+                            {
+                                "from": 0,
+                                "to": 100
+                            }
+                        ],
+                        "solutionButtonText": "Mostrar soluci\u00f3n",
+                        "retryButtonText": "Reintentar",
+                        "finishButtonText": "Terminar",
+                        "showAnimations": false,
+                        "skippable": false,
+                        "skipButtonText": "Saltar video"
+                    },
+                    "texts": {
+                        "prevButton": "Pregunta anterior",
+                        "nextButton": "Pregunta siguiente",
+                        "finishButton": "Terminar",
+                        "textualProgress": "Pregunta: @current de @total preguntas",
+                        "jumpToQuestion": "Pregunta %d de %total",
+                        "questionLabel": "Pregunta",
+                        "readSpeakerProgress": "Pregunta @current de @total",
+                        "unansweredText": "No contestada",
+                        "answeredText": "Contestada",
+                        "currentQuestionText": "Pregunta actual"
+                    },
+                    "override": {
+                        "checkButton": true
+                    },
+                    "backgroundImage": {
+                        "path": "images\/backgroundImage-6627c622cb8e9.jpg",
+                        "mime": "image\/jpeg",
+                        "copyright": {
+                            "license": "U"
+                        },
+                        "width": 206,
+                        "height": 206
+                    },
+                    "questions": [
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la arquitectura del microcontrolador STM8S105K?",
+                                "answers": [
+                                    {
+                                        "text": "ARM",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "PIC",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "AVR",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "8051",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la frecuencia m\u00e1xima de operaci\u00f3n del STM8S105K?",
+                                "answers": [
+                                    {
+                                        "text": "16 MHz",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "8 MHz",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "32 MHz",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "4 MHz",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1ntos puertos GPIO tiene el STM8S105K?",
+                                "answers": [
+                                    {
+                                        "text": "5",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "3",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "8",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "10",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la cantidad m\u00e1xima de memoria flash del STM8S105K?",
+                                "answers": [
+                                    {
+                                        "text": "32 KB",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "16 KB",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "64 KB",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "128 KB",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el tama\u00f1o m\u00e1ximo de RAM del STM8S105K?",
+                                "answers": [
+                                    {
+                                        "text": "2 KB",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "1 KB",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "4 KB",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "8 KB",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 tipo de perif\u00e9ricos de comunicaci\u00f3n integrados tiene el STM8S105K?",
+                                "answers": [
+                                    {
+                                        "text": "UART, SPI, I2C",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "CAN, LIN, Ethernet",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "USB, Ethernet, I2S",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "PWM, USART, CAN",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el rango de temperatura de operaci\u00f3n t\u00edpico del STM8S105K?",
+                                "answers": [
+                                    {
+                                        "text": "-40\u00b0C a +85\u00b0C",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "0\u00b0C a +50\u00b0C",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "-20\u00b0C a +70\u00b0C",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "-55\u00b0C a +125\u00b0C",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        }
+                    ]
+                },
+                "library": "H5P.QuestionSet 1.17",
+                "metadata": {
+                    "contentType": "Question Set",
+                    "license": "U",
+                    "title": "Responder las siguientes preguntas sobre la lectura del datasheet"
+                },
+                "subContentId": "53c97f3d-b3ad-4975-b4f8-2d728b47b2c3"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

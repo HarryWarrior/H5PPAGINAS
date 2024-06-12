@@ -1,0 +1,390 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<p>Dise\u00f1a una m\u00e1quina de estado algor\u00edtmica en VHDL para controlar el funcionamiento de un sem\u00e1foro peatonal en una intersecci\u00f3n de calles. La m\u00e1quina de estado debe tener los siguientes estados: \"Rojo\", \"Verde\", \"Amarillo\" y \"Rojo intermitente\". El estado inicial es \"Rojo\" y la m\u00e1quina de estado debe seguir el siguiente comportamiento:<\/p>\n\n<ul>\n\t<li>Cuando el sem\u00e1foro peatonal est\u00e1 en estado \"Rojo\", permanece en este estado durante 30 segundos.<\/li>\n\t<li>Luego cambia al estado \"Verde\" durante 10 segundos, permitiendo que los peatones crucen la calle.<\/li>\n\t<li>Despu\u00e9s de estar en estado \"Verde\" durante 10 segundos, cambia al estado \"Amarillo\" durante 5 segundos para indicar que el sem\u00e1foro peatonal est\u00e1 a punto de cambiar a rojo.<\/li>\n\t<li>Luego, cambia al estado \"Rojo\" durante 5 segundos para permitir que los \u00faltimos peatones terminen de cruzar.<\/li>\n\t<li>Finalmente, cambia al estado \"Rojo intermitente\" durante 10 segundos antes de volver al estado \"Rojo\" para el siguiente ciclo.<\/li>\n<\/ul>\n\n<p>Implementa esta m\u00e1quina de estado en VHDL para una FPGA, asegur\u00e1ndote de optimizar el dise\u00f1o y el c\u00f3digo para obtener prestaciones \u00f3ptimas.<\/p>\n"
+                },
+                "library": "H5P.AdvancedText 1.1",
+                "metadata": {
+                    "contentType": "Text",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Text"
+                },
+                "subContentId": "ba9e88e9-8315-491c-9c82-0c6c31369118"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "introPage": {
+                        "showIntroPage": false,
+                        "startButtonText": "Comenzar Examen",
+                        "introduction": ""
+                    },
+                    "progressType": "dots",
+                    "passPercentage": 50,
+                    "disableBackwardsNavigation": false,
+                    "randomQuestions": true,
+                    "endGame": {
+                        "showResultPage": true,
+                        "showSolutionButton": true,
+                        "showRetryButton": true,
+                        "noResultMessage": "Terminado",
+                        "message": "Su resultado:",
+                        "overallFeedback": [
+                            {
+                                "from": 0,
+                                "to": 100
+                            }
+                        ],
+                        "solutionButtonText": "Mostrar soluci\u00f3n",
+                        "retryButtonText": "Reintentar",
+                        "finishButtonText": "Terminar",
+                        "showAnimations": false,
+                        "skippable": false,
+                        "skipButtonText": "Saltar video"
+                    },
+                    "texts": {
+                        "prevButton": "Pregunta anterior",
+                        "nextButton": "Pregunta siguiente",
+                        "finishButton": "Terminar",
+                        "textualProgress": "Pregunta: @current de @total preguntas",
+                        "jumpToQuestion": "Pregunta %d de %total",
+                        "questionLabel": "Pregunta",
+                        "readSpeakerProgress": "Pregunta @current de @total",
+                        "unansweredText": "No contestada",
+                        "answeredText": "Contestada",
+                        "currentQuestionText": "Pregunta actual"
+                    },
+                    "override": {
+                        "checkButton": true
+                    },
+                    "questions": [
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1ntos estados tiene la m\u00e1quina de estado dise\u00f1ada para el sem\u00e1foro peatonal?",
+                                "answers": [
+                                    {
+                                        "text": "5 estados",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "3 estados",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "4 estados",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el prop\u00f3sito del estado \"Rojo intermitente\" en la m\u00e1quina de estado?",
+                                "answers": [
+                                    {
+                                        "text": "Preparar el sem\u00e1foro para el siguiente ciclo, indicando que pronto cambiar\u00e1 a rojo.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Permitir que los peatones crucen la calle.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Indicar que el sem\u00e1foro est\u00e1 a punto de cambiar a verde.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1nto tiempo dura el estado \"Verde\" en la m\u00e1quina de estado dise\u00f1ada?",
+                                "answers": [
+                                    {
+                                        "text": "10 segundos",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "5 segundos",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "15 segundos",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 acci\u00f3n toma la m\u00e1quina de estado despu\u00e9s de estar en estado \"Rojo intermitente\" durante 10 segundos?",
+                                "answers": [
+                                    {
+                                        "text": "Vuelve al estado \"Rojo\" para el siguiente ciclo.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Cambia al estado \"Verde\".",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Se detiene y espera una se\u00f1al de reinicio.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfPor qu\u00e9 es importante optimizar el dise\u00f1o y el c\u00f3digo de la m\u00e1quina de estado para obtener prestaciones \u00f3ptimas en una FPGA?",
+                                "answers": [
+                                    {
+                                        "text": "Para asegurar un funcionamiento eficiente y una respuesta r\u00e1pida del sistema.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Para reducir la complejidad del sistema.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Para mejorar la legibilidad del c\u00f3digo.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es una t\u00e9cnica com\u00fan para optimizar el dise\u00f1o de una m\u00e1quina de estado en VHDL?",
+                                "answers": [
+                                    {
+                                        "text": "Utilizar registros de desplazamiento para almacenar el estado actual de la m\u00e1quina.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Utilizar m\u00faltiples procesos.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Minimizar el uso de comentarios en el c\u00f3digo.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfC\u00f3mo se define un tipo de enumeraci\u00f3n para los estados de la m\u00e1quina de estado en VHDL?",
+                                "answers": [
+                                    {
+                                        "text": "type state_type is (Rojo, Verde, Amarillo, Rojo_Intermitente);",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "type state_type is (1, 2, 3, 4);",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "type state_type is ('0', '1', '2', '3');",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 tipo de estructura de control es m\u00e1s adecuada para implementar la l\u00f3gica de transici\u00f3n de estado en VHDL?",
+                                "answers": [
+                                    {
+                                        "text": "Un proceso sensitivo al flanco de reloj.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Un proceso sensitivo a las entradas de la m\u00e1quina de estado.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Una asignaci\u00f3n concurrente.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el prop\u00f3sito de la cl\u00e1usula \"case\" en VHDL cuando se dise\u00f1a una m\u00e1quina de estado?",
+                                "answers": [
+                                    {
+                                        "text": "Para definir las transiciones de estado basadas en el estado actual.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Para especificar las entradas y salidas de la m\u00e1quina de estado.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Para implementar la l\u00f3gica combinacional en la m\u00e1quina de estado.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfC\u00f3mo se implementa un temporizador en VHDL para controlar la duraci\u00f3n de un estado?",
+                                "answers": [
+                                    {
+                                        "text": "Utilizando un contador y comparadores para detectar el tiempo transcurrido.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Mediante el uso de un generador de reloj interno.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Utilizando se\u00f1ales de temporizaci\u00f3n predefinidas en la FPGA.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el prop\u00f3sito de la cl\u00e1usula \"with\" en VHDL al dise\u00f1ar una m\u00e1quina de estado?",
+                                "answers": [
+                                    {
+                                        "text": "Permite seleccionar la siguiente transici\u00f3n de estado basada en el estado actual.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Define las entradas de la m\u00e1quina de estado.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Especifica las salidas de la m\u00e1quina de estado.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 ventajas ofrece el uso de registros de desplazamiento para almacenar el estado actual de la m\u00e1quina de estado en VHDL?",
+                                "answers": [
+                                    {
+                                        "text": "Reduce la complejidad del c\u00f3digo y mejora la eficiencia de la s\u00edntesis.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Permite una mayor flexibilidad en el dise\u00f1o de la m\u00e1quina de estado.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Simplifica la depuraci\u00f3n del c\u00f3digo VHDL.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 es un \"clock enable\" y c\u00f3mo se utiliza en VHDL para controlar la ejecuci\u00f3n de la m\u00e1quina de estado?",
+                                "answers": [
+                                    {
+                                        "text": "Es una se\u00f1al que habilita la actualizaci\u00f3n del estado de la m\u00e1quina de estado en cada ciclo de reloj.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Es una se\u00f1al que define el per\u00edodo de reloj de la FPGA.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Es una se\u00f1al que determina la duraci\u00f3n de cada estado en la m\u00e1quina de estado.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        }
+                    ]
+                },
+                "library": "H5P.QuestionSet 1.17",
+                "metadata": {
+                    "contentType": "Question Set",
+                    "license": "U",
+                    "title": "Al realizar el ejercicio responde"
+                },
+                "subContentId": "9906bd32-8190-4025-a782-5062ac51bfc9"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

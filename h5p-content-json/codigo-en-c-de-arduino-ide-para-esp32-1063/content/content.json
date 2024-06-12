@@ -1,0 +1,235 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<hr>\n<p>Codigo en ARDUINO IDE EN C PARA ESP32<\/p>\n\n<hr>\n<p><strong><em>#include &lt;WiFi.h&gt;<br>\n#include &lt;PubSubClient.h&gt;<br>\n#include &lt;OneWire.h&gt;<br>\n#include &lt;DallasTemperature.h&gt;<\/em><\/strong><\/p>\n\n<p><strong><em>const char* ssid = \"nombre_de_red_wifi\";<br>\nconst char* password = \"contrase\u00f1a_wifi\";<br>\nconst char* mqtt_server = \"direccion_ip_servidor_mqtt\";<br>\nconst int mqtt_port = 1883;<br>\nconst char* mqtt_user = \"usuario_mqtt\";<br>\nconst char* mqtt_password = \"contrase\u00f1a_mqtt\";<br>\nconst char* mqtt_topic = \"temperatura\/salon\";<\/em><\/strong><\/p>\n\n<p><strong><em>WiFiClient espClient;<br>\nPubSubClient client(espClient);<\/em><\/strong><\/p>\n\n<p><strong><em>OneWire oneWire(4); \/\/ Pin de datos del sensor DS18B20<br>\nDallasTemperature sensors(&amp;oneWire);<\/em><\/strong><\/p>\n\n<p><strong><em>void setup_wifi() {<br>\n&nbsp; delay(10);<br>\n&nbsp; Serial.println();<br>\n&nbsp; Serial.print(\"Conectando a \");<br>\n&nbsp; Serial.println(ssid);<br>\n&nbsp;&nbsp;<br>\n&nbsp; WiFi.begin(ssid, password);<br>\n&nbsp;&nbsp;<br>\n&nbsp; while (WiFi.status() != WL_CONNECTED) {<br>\n&nbsp; &nbsp; delay(500);<br>\n&nbsp; &nbsp; Serial.print(\".\");<br>\n&nbsp; }<br>\n&nbsp;&nbsp;<br>\n&nbsp; Serial.println(\"\");<br>\n&nbsp; Serial.println(\"Conexi\u00f3n WiFi establecida\");<br>\n&nbsp; Serial.println(\"Direcci\u00f3n IP: \");<br>\n&nbsp; Serial.println(WiFi.localIP());<br>\n}<\/em><\/strong><\/p>\n\n<p><strong><em>void reconnect() {<br>\n&nbsp; while (!client.connected()) {<br>\n&nbsp; &nbsp; Serial.print(\"Intentando conexi\u00f3n MQTT...\");<br>\n&nbsp; &nbsp; if (client.connect(\"ESP32Client\", mqtt_user, mqtt_password)) {<br>\n&nbsp; &nbsp; &nbsp; Serial.println(\"Conectado\");<br>\n&nbsp; &nbsp; } else {<br>\n&nbsp; &nbsp; &nbsp; Serial.print(\"fall\u00f3, rc=\");<br>\n&nbsp; &nbsp; &nbsp; Serial.print(client.state());<br>\n&nbsp; &nbsp; &nbsp; Serial.println(\" intentando de nuevo en 5 segundos\");<br>\n&nbsp; &nbsp; &nbsp; delay(5000);<br>\n&nbsp; &nbsp; }<br>\n&nbsp; }<br>\n}<\/em><\/strong><\/p>\n\n<p><strong><em>void setup() {<br>\n&nbsp; Serial.begin(9600);<br>\n&nbsp; setup_wifi();<br>\n&nbsp; client.setServer(mqtt_server, mqtt_port);<br>\n&nbsp; sensors.begin();<br>\n}<\/em><\/strong><\/p>\n\n<p><strong><em>void loop() {<br>\n&nbsp; if (!client.connected()) {<br>\n&nbsp; &nbsp; reconnect();<br>\n&nbsp; }<br>\n&nbsp; client.loop();<\/em><\/strong><\/p>\n\n<p><strong><em>&nbsp; sensors.requestTemperatures();&nbsp;<br>\n&nbsp; float temperatura = sensors.getTempCByIndex(0);<\/em><\/strong><\/p>\n\n<p><strong><em>&nbsp; Serial.print(\"Temperatura: \");<br>\n&nbsp; Serial.println(temperatura);<\/em><\/strong><\/p>\n\n<p><strong><em>&nbsp; if (isnan(temperatura)) {<br>\n&nbsp; &nbsp; Serial.println(\"Error al leer la temperatura\");<br>\n&nbsp; &nbsp; return;<br>\n&nbsp; }<\/em><\/strong><\/p>\n\n<p><strong><em>&nbsp; if (client.publish(mqtt_topic, String(temperatura).c_str())) {<br>\n&nbsp; &nbsp; Serial.println(\"Temperatura enviada correctamente a MQTT\");<br>\n&nbsp; } else {<br>\n&nbsp; &nbsp; Serial.println(\"Error al enviar la temperatura a MQTT\");<br>\n&nbsp; }<\/em><\/strong><\/p>\n\n<p><strong><em>&nbsp; delay(5000);<br>\n}<\/em><\/strong><br>\n&nbsp;<\/p>\n"
+                },
+                "library": "H5P.AdvancedText 1.1",
+                "metadata": {
+                    "contentType": "Text",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Text"
+                },
+                "subContentId": "04dfc740-808a-4b6b-b5b6-2a02cc5f2c3c"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "introPage": {
+                        "showIntroPage": false,
+                        "startButtonText": "Comenzar Examen",
+                        "introduction": ""
+                    },
+                    "progressType": "dots",
+                    "passPercentage": 50,
+                    "disableBackwardsNavigation": false,
+                    "randomQuestions": false,
+                    "endGame": {
+                        "showResultPage": true,
+                        "showSolutionButton": true,
+                        "showRetryButton": true,
+                        "noResultMessage": "Terminado",
+                        "message": "Su resultado:",
+                        "overallFeedback": [
+                            {
+                                "from": 0,
+                                "to": 100
+                            }
+                        ],
+                        "solutionButtonText": "Mostrar soluci\u00f3n",
+                        "retryButtonText": "Reintentar",
+                        "finishButtonText": "Terminar",
+                        "showAnimations": false,
+                        "skippable": false,
+                        "skipButtonText": "Saltar video"
+                    },
+                    "texts": {
+                        "prevButton": "Pregunta anterior",
+                        "nextButton": "Pregunta siguiente",
+                        "finishButton": "Terminar",
+                        "textualProgress": "Pregunta: @current de @total preguntas",
+                        "jumpToQuestion": "Pregunta %d de %total",
+                        "questionLabel": "Pregunta",
+                        "readSpeakerProgress": "Pregunta @current de @total",
+                        "unansweredText": "No contestada",
+                        "answeredText": "Contestada",
+                        "currentQuestionText": "Pregunta actual"
+                    },
+                    "override": {
+                        "checkButton": true
+                    },
+                    "questions": [
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 bibliotecas externas se utilizan en este c\u00f3digo y para qu\u00e9 prop\u00f3sito?",
+                                "answers": [
+                                    {
+                                        "text": "WiFi.h, PubSubClient.h, OneWire.h y DallasTemperature.h",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Estas bibliotecas se utilizan para la comunicaci\u00f3n Wi-Fi, la comunicaci\u00f3n MQTT y la interacci\u00f3n con el sensor de temperatura DS18B20",
+                                            "chosenFeedback": "Correcto. Estas bibliotecas son necesarias para establecer la conexi\u00f3n Wi-Fi, la comunicaci\u00f3n MQTT y la interacci\u00f3n con el sensor de temperatura."
+                                        }
+                                    },
+                                    {
+                                        "text": "WiFi.h, Bluetooth.h, LiquidCrystal.h",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Estas bibliotecas no est\u00e1n relacionadas con las funciones del c\u00f3digo",
+                                            "chosenFeedback": "Incorrecto. Las bibliotecas mencionadas son las necesarias para el funcionamiento del c\u00f3digo."
+                                        }
+                                    },
+                                    {
+                                        "text": "ESP32WiFi.h, MQTTClient.h, Servo.h",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Estas bibliotecas no se utilizan en el c\u00f3digo",
+                                            "chosenFeedback": "Incorrecto. Las bibliotecas mencionadas no est\u00e1n presentes en el c\u00f3digo."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la funci\u00f3n de `setup_wifi()` en este c\u00f3digo?",
+                                "answers": [
+                                    {
+                                        "text": "Establece la conexi\u00f3n Wi-Fi con el nombre de red y la contrase\u00f1a proporcionados",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta funci\u00f3n es esencial para la configuraci\u00f3n inicial del ESP32",
+                                            "chosenFeedback": "Correcto. La funci\u00f3n setup_wifi() se encarga de establecer la conexi\u00f3n Wi-Fi con los datos proporcionados."
+                                        }
+                                    },
+                                    {
+                                        "text": "Configura el servidor MQTT y el cliente",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta tarea no est\u00e1 relacionada con la funci\u00f3n setup_wifi()",
+                                            "chosenFeedback": "Incorrecto. La funci\u00f3n setup_wifi() se ocupa exclusivamente de la conexi\u00f3n Wi-Fi."
+                                        }
+                                    },
+                                    {
+                                        "text": "Inicializa el sensor de temperatura",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta tarea se realiza en otra parte del c\u00f3digo",
+                                            "chosenFeedback": "Incorrecto. La funci\u00f3n setup_wifi() no inicializa el sensor de temperatura."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 hace la funci\u00f3n `reconnect()`?",
+                                "answers": [
+                                    {
+                                        "text": "Intenta conectarse al servidor MQTT en caso de que la conexi\u00f3n se pierda",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta funci\u00f3n es crucial para mantener la conexi\u00f3n MQTT activa",
+                                            "chosenFeedback": "Correcto. La funci\u00f3n reconnect() intenta reconectar al ESP32 al servidor MQTT en caso de que la conexi\u00f3n se pierda."
+                                        }
+                                    },
+                                    {
+                                        "text": "Reinicia el ESP32 en caso de falla",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta tarea no est\u00e1 relacionada con la funci\u00f3n reconnect()",
+                                            "chosenFeedback": "Incorrecto. La funci\u00f3n reconnect() no reinicia el ESP32."
+                                        }
+                                    },
+                                    {
+                                        "text": "Reinicia la conexi\u00f3n Wi-Fi si se pierde",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta tarea se maneja en otra parte del c\u00f3digo",
+                                            "chosenFeedback": "Incorrecto. La funci\u00f3n reconnect() no reinicia la conexi\u00f3n Wi-Fi."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el prop\u00f3sito de `sensors.requestTemperatures()` en el c\u00f3digo?",
+                                "answers": [
+                                    {
+                                        "text": "Solicita al sensor DS18B20 que tome una lectura de temperatura",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta funci\u00f3n es necesaria para obtener una lectura actualizada del sensor",
+                                            "chosenFeedback": "Correcto. La funci\u00f3n sensors.requestTemperatures() solicita al sensor DS18B20 que tome una nueva lectura de temperatura."
+                                        }
+                                    },
+                                    {
+                                        "text": "Configura el pin de datos del sensor",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta tarea se realiza en la inicializaci\u00f3n del sensor",
+                                            "chosenFeedback": "Incorrecto. La funci\u00f3n sensors.requestTemperatures() no configura el pin de datos del sensor."
+                                        }
+                                    },
+                                    {
+                                        "text": "Lee la temperatura actual del sensor",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta tarea se realiza despu\u00e9s de llamar a sensors.requestTemperatures()",
+                                            "chosenFeedback": "Incorrecto. La funci\u00f3n sensors.requestTemperatures() solo solicita una nueva lectura del sensor, no la lee."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfPor qu\u00e9 se verifica `isnan(temperatura)` despu\u00e9s de leer la temperatura del sensor?",
+                                "answers": [
+                                    {
+                                        "text": "Para detectar si la lectura del sensor produjo un valor inv\u00e1lido o no num\u00e9rico",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta verificaci\u00f3n es esencial para garantizar la validez de los datos de temperatura",
+                                            "chosenFeedback": "Correcto. La funci\u00f3n isnan() se utiliza para verificar si la lectura del sensor de temperatura produjo un valor num\u00e9rico v\u00e1lido."
+                                        }
+                                    },
+                                    {
+                                        "text": "Para verificar si la conexi\u00f3n Wi-Fi est\u00e1 activa",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta verificaci\u00f3n no est\u00e1 relacionada con la lectura del sensor de temperatura",
+                                            "chosenFeedback": "Incorrecto. La funci\u00f3n isnan() no se utiliza para verificar la conexi\u00f3n Wi-Fi."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        }
+                    ]
+                },
+                "library": "H5P.QuestionSet 1.17",
+                "metadata": {
+                    "contentType": "Question Set",
+                    "license": "U",
+                    "title": "Responda las preguntas seg\u00fan el c\u00f3digo mencionado previamente:"
+                },
+                "subContentId": "2af94bb0-39ae-448c-be17-08f5d3c3efd4"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

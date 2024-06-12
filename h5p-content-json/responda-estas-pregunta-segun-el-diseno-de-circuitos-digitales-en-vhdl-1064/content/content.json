@@ -1,0 +1,627 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "introPage": {
+                        "showIntroPage": false,
+                        "startButtonText": "Comenzar Examen",
+                        "introduction": ""
+                    },
+                    "progressType": "dots",
+                    "passPercentage": 50,
+                    "disableBackwardsNavigation": false,
+                    "randomQuestions": false,
+                    "endGame": {
+                        "showResultPage": true,
+                        "showSolutionButton": true,
+                        "showRetryButton": true,
+                        "noResultMessage": "Terminado",
+                        "message": "Su resultado:",
+                        "overallFeedback": [
+                            {
+                                "from": 0,
+                                "to": 100
+                            }
+                        ],
+                        "solutionButtonText": "Mostrar soluci\u00f3n",
+                        "retryButtonText": "Reintentar",
+                        "finishButtonText": "Terminar",
+                        "showAnimations": false,
+                        "skippable": false,
+                        "skipButtonText": "Saltar video"
+                    },
+                    "texts": {
+                        "prevButton": "Pregunta anterior",
+                        "nextButton": "Pregunta siguiente",
+                        "finishButton": "Terminar",
+                        "textualProgress": "Pregunta: @current de @total preguntas",
+                        "jumpToQuestion": "Pregunta %d de %total",
+                        "questionLabel": "Pregunta",
+                        "readSpeakerProgress": "Pregunta @current de @total",
+                        "unansweredText": "No contestada",
+                        "answeredText": "Contestada",
+                        "currentQuestionText": "Pregunta actual"
+                    },
+                    "override": {
+                        "checkButton": true
+                    },
+                    "questions": [
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la diferencia entre un circuito combinacional y un circuito secuencial?",
+                                "answers": [
+                                    {
+                                        "text": "Un circuito combinacional produce una salida basada \u00fanicamente en las entradas actuales, mientras que un circuito secuencial tiene memoria y puede producir salidas basadas en entradas anteriores y su estado interno.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "El circuito combinacional y el secuencial tienen diferentes comportamientos en t\u00e9rminos de manejo de la entrada y la salida.",
+                                            "chosenFeedback": "Correcto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Ambos tipos de circuitos realizan operaciones aritm\u00e9ticas.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta opci\u00f3n no refleja correctamente la diferencia entre los dos tipos de circuitos.",
+                                            "chosenFeedback": "Incorrecto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Los circuitos combinacionales son m\u00e1s r\u00e1pidos que los circuitos secuenciales.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "La velocidad de funcionamiento no es una distinci\u00f3n definitoria entre circuitos combinacionales y secuenciales.",
+                                            "chosenFeedback": "Incorrecto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "b04f711d-6c54-4d13-87a5-efa2897f7d52",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 opci\u00f3n de sintaxis es correcta para definir una se\u00f1al de 8 bits en VHDL?",
+                                "answers": [
+                                    {
+                                        "text": "<div>reg [7:0] my_signal;<\/div>\n",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "",
+                                            "chosenFeedback": "En VHDL, \"reg\" se utiliza para declarar se\u00f1ales internas.",
+                                            "notChosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "<div>signal reg [7:0] my_signal;<\/div>\n",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "",
+                                            "chosenFeedback": "La palabra \"signal\" no se utiliza antes de la declaraci\u00f3n de tipo.",
+                                            "notChosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "wire [8] my_signal;",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "En VHDL, se utiliza \"wire\" en Verilog para declarar conexiones de cables.",
+                                            "chosenFeedback": "Incorrecto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "465275df-b6ec-459b-86a4-be123aed78cd",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la funci\u00f3n del acarreo de salida en el circuito combinacional de suma binaria?",
+                                "answers": [
+                                    {
+                                        "text": "Llevar el bit que se lleva cuando una suma excede el rango de bits disponibles.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "El acarreo de salida es importante para manejar sumas que exceden el rango de bits disponibles en el resultado.",
+                                            "chosenFeedback": "Correcto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Indicar si la suma es positiva o negativa.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "El acarreo de salida no indica la polaridad de la suma.",
+                                            "chosenFeedback": "Incorrecto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Determinar el tipo de operaci\u00f3n de suma (por ejemplo, suma o resta).",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "El acarreo de salida no determina si la operaci\u00f3n es una suma o una resta.",
+                                            "chosenFeedback": "Incorrecto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "1458197b-5629-42d1-b290-36a5a9f7c3ec",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l de las siguientes opciones de c\u00f3digo VHDL implementa correctamente la operaci\u00f3n de suma binaria de dos n\u00fameros de 8 bits?",
+                                "answers": [
+                                    {
+                                        "text": "sum &lt;= A + B + carry_in;",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Para una suma binaria, necesitas agregar ambos operandos y el acarreo de entrada, si lo hay.",
+                                            "chosenFeedback": "Correcto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "sum &lt;= A + B;",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta opci\u00f3n no maneja correctamente el acarreo de salida.",
+                                            "chosenFeedback": "Incorrecto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "sum &lt;= A - B;",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta opci\u00f3n implementa una resta, no una suma.",
+                                            "chosenFeedback": "Incorrecto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "5e32517f-2841-4651-a5b2-31a35d5535d9",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfPor qu\u00e9 es importante utilizar un registro de desplazamiento en el circuito sincr\u00f3nico para el contador?",
+                                "answers": [
+                                    {
+                                        "text": "Para almacenar el estado del contador y mantener la sincronizaci\u00f3n con el reloj de entrada.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los registros de desplazamiento son esenciales en circuitos sincr\u00f3nicos para mantener un estado interno consistente y sincronizado con el reloj de entrada.",
+                                            "chosenFeedback": "Correcto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Para reducir el consumo de energ\u00eda.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los registros de desplazamiento no est\u00e1n directamente relacionados con la reducci\u00f3n del consumo de energ\u00eda.",
+                                            "chosenFeedback": "Incorrecto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Para mejorar la precisi\u00f3n de la operaci\u00f3n del contador.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "La precisi\u00f3n del contador no se ve directamente afectada por el uso de registros de desplazamiento.",
+                                            "chosenFeedback": "Incorrecto.",
+                                            "notChosenFeedback": ""
+                                        }
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "c9c9075f-a06f-4b97-b4b2-71e58be0343a",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l de las siguientes opciones de c\u00f3digo VHDL implementa correctamente un registro de desplazamiento para almacenar el estado del contador de 4 bits?",
+                                "answers": [
+                                    {
+                                        "text": "<div>process (clk) begin<br>\nif rising_edge(clk) then<br>\nif reset = '1' then<br>\ncount &lt;= \"0000\";<br>\nelse<br>\ncount &lt;= count + 1;<br>\nend if;<br>\nend if;<br>\nend process;<\/div>\n",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "",
+                                            "chosenFeedback": "",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "<div>always @(posedge clk) begin<br>\nif (reset) begin<br>\ncount &lt;= 4'b0000;<br>\nend else begin<br>\ncount &lt;= count + 1;<br>\nend<br>\nend<\/div>\n",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "",
+                                            "chosenFeedback": "",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "",
+                                            "chosenFeedback": "<div>Este c\u00f3digo no utiliza un condicional adecuado para sincronizar la actualizaci\u00f3n del contador con el reloj de entrada.<\/div>\n",
+                                            "notChosenFeedback": ""
+                                        },
+                                        "text": "<div>process (clk) begin<br>\nif reset = '1' then<br>\ncount &lt;= \"0000\";<br>\nelse<br>\ncount &lt;= count + 1;<br>\nend if;<br>\nend process;<\/div>\n"
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "c57d4963-eca5-4c47-b08c-b3d1bbfbe694",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        }
+                    ]
+                },
+                "library": "H5P.QuestionSet 1.17",
+                "metadata": {
+                    "contentType": "Question Set",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Question Set"
+                },
+                "subContentId": "4fae9736-d908-4625-9c7a-fedc99e37ea5"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

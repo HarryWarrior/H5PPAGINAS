@@ -1,0 +1,535 @@
+{
+    "introPage": {
+        "showIntroPage": false,
+        "startButtonText": "Comenzar Examen",
+        "introduction": ""
+    },
+    "progressType": "dots",
+    "passPercentage": 50,
+    "disableBackwardsNavigation": false,
+    "randomQuestions": false,
+    "endGame": {
+        "showResultPage": true,
+        "showSolutionButton": true,
+        "showRetryButton": true,
+        "noResultMessage": "Terminado",
+        "message": "Su resultado:",
+        "overallFeedback": [
+            {
+                "from": 0,
+                "to": 100
+            }
+        ],
+        "solutionButtonText": "Mostrar soluci\u00f3n",
+        "retryButtonText": "Reintentar",
+        "finishButtonText": "Terminar",
+        "showAnimations": false,
+        "skippable": false,
+        "skipButtonText": "Saltar video",
+        "scoreBarLabel": "Has conseguido @finals de @totals puntos",
+        "submitButtonText": "Enviar"
+    },
+    "override": {
+        "checkButton": true
+    },
+    "texts": {
+        "prevButton": "Pregunta anterior",
+        "nextButton": "Pregunta siguiente",
+        "finishButton": "Terminar",
+        "textualProgress": "Pregunta: @current de @total preguntas",
+        "jumpToQuestion": "Pregunta %d de %total",
+        "questionLabel": "Pregunta",
+        "readSpeakerProgress": "Pregunta @current de @total",
+        "unansweredText": "No contestada",
+        "answeredText": "Contestada",
+        "currentQuestionText": "Pregunta actual",
+        "submitButton": "Enviar",
+        "navigationLabel": "Preguntas"
+    },
+    "backgroundImage": {
+        "path": "images\/backgroundImage-65f0bb0757a32.jpg",
+        "mime": "image\/jpeg",
+        "copyright": {
+            "license": "U"
+        },
+        "width": 345,
+        "height": 198
+    },
+    "questions": [
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfQu\u00e9 es un microcontrolador?",
+                "answers": [
+                    {
+                        "text": "Un microcontrolador es un circuito integrado que contiene las funciones de una unidad central de procesamiento de una computadora.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Un microcontrolador es un dispositivo de almacenamiento de datos.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Un microcontrolador es un tipo de software.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "9e3a8220-323a-4578-a5e9-06ca6cc470ff",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "\u00bfQu\u00e9 es un microcontrolador?"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfCu\u00e1l de las siguientes es una funci\u00f3n de un microcontrolador?",
+                "answers": [
+                    {
+                        "text": "Almacenar informaci\u00f3n a largo plazo.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Ejecutar instrucciones de programas y realizar operaciones aritm\u00e9ticas y l\u00f3gicas.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Proporcionar una interfaz gr\u00e1fica al usuario.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "97d6fb11-2b73-4540-a6fa-a5cb8bcf58b0",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "\u00bfQu\u00e9 es un microcontrolador?"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfQui\u00e9n es conocido como el \"padre del microcontrolador\"?",
+                "answers": [
+                    {
+                        "text": "Bill Gates",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Steve Jobs",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Ted Hoff",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "bc2b752a-f93c-421b-a670-4a17888d2453",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "\u00bfQui\u00e9n es conocido como el &quot;padre del microcontrolador&quot;?"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfCu\u00e1l es la diferencia entre un microcontrolador y un microprocesador?",
+                "answers": [
+                    {
+                        "text": "Un microcontrolador es un sistema en chip que incluye una CPU, memoria y perif\u00e9ricos, mientras que un microprocesador es solo la CPU y necesita componentes externos para funcionar.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Un microcontrolador es m\u00e1s grande que un microprocesador.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "Un microcontrolador es menos potente que un microprocesador.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "4480a839-6982-4d21-bdc0-37142a76d31a",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfQu\u00e9 lenguajes de programaci\u00f3n se utilizan com\u00fanmente para programar microcontroladores?",
+                "answers": [
+                    {
+                        "text": "Python y Java.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "HTML y CSS.",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    },
+                    {
+                        "text": "C y Assembly.",
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "925e02b6-d8bb-4c3a-bec9-c375f5015d74",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        }
+    ]
+}

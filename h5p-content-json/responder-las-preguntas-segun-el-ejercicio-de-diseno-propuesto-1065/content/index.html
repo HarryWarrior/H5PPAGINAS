@@ -1,0 +1,397 @@
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>content</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="exercise-container">
+            <h1 class="exercise-title">content</h1>
+            
+            <div class="question" data-question-index="0">
+                <p>¿Cuántos estados tiene la máquina de estado diseñada para el semáforo peatonal?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question0" value="True">
+                            5 estados
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question0" value="False">
+                            3 estados
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question0" value="False">
+                            4 estados
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="1">
+                <p>¿Cuál es el propósito del estado "Rojo intermitente" en la máquina de estado?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question1" value="True">
+                            Preparar el semáforo para el siguiente ciclo, indicando que pronto cambiará a rojo.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question1" value="False">
+                            Permitir que los peatones crucen la calle.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question1" value="False">
+                            Indicar que el semáforo está a punto de cambiar a verde.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="2">
+                <p>¿Cuánto tiempo dura el estado "Verde" en la máquina de estado diseñada?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question2" value="True">
+                            10 segundos
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question2" value="False">
+                            5 segundos
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question2" value="False">
+                            15 segundos
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="3">
+                <p>¿Qué acción toma la máquina de estado después de estar en estado "Rojo intermitente" durante 10 segundos?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question3" value="True">
+                            Vuelve al estado "Rojo" para el siguiente ciclo.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question3" value="False">
+                            Cambia al estado "Verde".
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question3" value="False">
+                            Se detiene y espera una señal de reinicio.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="4">
+                <p>¿Por qué es importante optimizar el diseño y el código de la máquina de estado para obtener prestaciones óptimas en una FPGA?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question4" value="True">
+                            Para asegurar un funcionamiento eficiente y una respuesta rápida del sistema.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question4" value="False">
+                            Para reducir la complejidad del sistema.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question4" value="False">
+                            Para mejorar la legibilidad del código.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="5">
+                <p>¿Cuál es una técnica común para optimizar el diseño de una máquina de estado en VHDL?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question5" value="True">
+                            Utilizar registros de desplazamiento para almacenar el estado actual de la máquina.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question5" value="False">
+                            Utilizar múltiples procesos.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question5" value="False">
+                            Minimizar el uso de comentarios en el código.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="6">
+                <p>¿Cómo se define un tipo de enumeración para los estados de la máquina de estado en VHDL?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question6" value="True">
+                            type state_type is (Rojo, Verde, Amarillo, Rojo_Intermitente);
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question6" value="False">
+                            type state_type is (1, 2, 3, 4);
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question6" value="False">
+                            type state_type is ('0', '1', '2', '3');
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="7">
+                <p>¿Qué tipo de estructura de control es más adecuada para implementar la lógica de transición de estado en VHDL?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question7" value="True">
+                            Un proceso sensitivo al flanco de reloj.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question7" value="False">
+                            Un proceso sensitivo a las entradas de la máquina de estado.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question7" value="False">
+                            Una asignación concurrente.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="8">
+                <p>¿Cuál es el propósito de la cláusula "case" en VHDL cuando se diseña una máquina de estado?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question8" value="True">
+                            Para definir las transiciones de estado basadas en el estado actual.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question8" value="False">
+                            Para especificar las entradas y salidas de la máquina de estado.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question8" value="False">
+                            Para implementar la lógica combinacional en la máquina de estado.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="9">
+                <p>¿Cómo se implementa un temporizador en VHDL para controlar la duración de un estado?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question9" value="True">
+                            Utilizando un contador y comparadores para detectar el tiempo transcurrido.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question9" value="False">
+                            Mediante el uso de un generador de reloj interno.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question9" value="False">
+                            Utilizando señales de temporización predefinidas en la FPGA.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="10">
+                <p>¿Cuál es el propósito de la cláusula "with" en VHDL al diseñar una máquina de estado?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question10" value="True">
+                            Permite seleccionar la siguiente transición de estado basada en el estado actual.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question10" value="False">
+                            Define las entradas de la máquina de estado.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question10" value="False">
+                            Especifica las salidas de la máquina de estado.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="11">
+                <p>¿Qué ventajas ofrece el uso de registros de desplazamiento para almacenar el estado actual de la máquina de estado en VHDL?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question11" value="True">
+                            Reduce la complejidad del código y mejora la eficiencia de la síntesis.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question11" value="False">
+                            Permite una mayor flexibilidad en el diseño de la máquina de estado.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question11" value="False">
+                            Simplifica la depuración del código VHDL.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="question" data-question-index="12">
+                <p>¿Qué es un "clock enable" y cómo se utiliza en VHDL para controlar la ejecución de la máquina de estado?</p>
+                <ul>    
+                    
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question12" value="True">
+                            Es una señal que habilita la actualización del estado de la máquina de estado en cada ciclo de reloj.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question12" value="False">
+                            Es una señal que define el período de reloj de la FPGA.
+                        </label>
+                    </li>
+                    
+                    <li>
+                        <label>
+                            <input type="radio" name="question12" value="False">
+                            Es una señal que determina la duración de cada estado en la máquina de estado.
+                        </label>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+        <button id="check-button">Verificar Respuestas</button>
+        <p id="result"></p>
+        <script src="exercise.js"></script>
+    </body>
+    </html>
+    

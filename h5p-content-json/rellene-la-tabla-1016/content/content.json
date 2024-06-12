@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<table class=\"h5p-table\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th scope=\"col\">\n\t\t\t<table align=\"center\" border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n\t\t\t\t<thead>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\">&nbsp;<\/th>\n\t\t\t\t\t\t<th scope=\"col\">A<\/th>\n\t\t\t\t\t\t<th scope=\"col\">B<\/th>\n\t\t\t\t\t\t<th scope=\"col\">C<\/th>\n\t\t\t\t\t\t<th scope=\"col\">D<\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>a<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>b<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>c<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>d<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>e<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>f<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>g1<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>g2<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>h<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>i<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>j<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>k<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>l<\/strong><\/th>\n\t\t\t\t\t\t<th scope=\"col\"><strong>m<\/strong><\/th>\n\t\t\t\t\t<\/tr>\n\t\t\t\t<\/thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\"><strong>H<\/strong><\/th>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>X<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\"><strong>O<\/strong><\/th>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>X<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\">L<\/th>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>X<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\">A<\/th>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>X<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\">M<\/th>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>X<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\">U<\/th>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>X<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\">N<\/th>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>X<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\"><strong>D<\/strong><\/th>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>X<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th scope=\"row\">O<\/th>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>1<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t\t<td>X<\/td>\n\t\t\t\t\t\t<td>0<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t<\/tbody>\n\t\t\t<\/table>\n\n\t\t\t<div>&nbsp;<\/div>\n\t\t\t<\/th>\n\t\t<\/tr>\n\t<\/thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<div>&nbsp;<\/div>\n\t\t\t<\/td>\n\t\t<\/tr>\n\t<\/tbody>\n<\/table>\n"
+                },
+                "library": "H5P.Table 1.1",
+                "metadata": {
+                    "contentType": "Table",
+                    "license": "U",
+                    "title": "Completa la Tabla"
+                },
+                "subContentId": "74bb5fc6-6e11-4090-b883-7077c5cbaa44"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "media": {
+                        "disableImageZooming": false
+                    },
+                    "text": "<p>Rellenar con valores de 1 o 0 los espacios de la tabla que est\u00e1n en X de acuerdo a un display de 14 segmentos, para dise\u00f1ar un decodificador.<\/p>\n",
+                    "overallFeedback": [
+                        {
+                            "from": 0,
+                            "to": 50,
+                            "feedback": "Mal"
+                        },
+                        {
+                            "from": 51,
+                            "to": 80,
+                            "feedback": "Bien"
+                        },
+                        {
+                            "from": 81,
+                            "to": 100,
+                            "feedback": "Excelente"
+                        }
+                    ],
+                    "showSolutions": "Mostrar soluci\u00f3n",
+                    "tryAgain": "Reintentar",
+                    "checkAnswer": "revisar",
+                    "notFilledOut": "Por favor llene todos los espacios para ver la soluci\u00f3n",
+                    "answerIsCorrect": "&#039;:ans&#039; es correcto",
+                    "answerIsWrong": "&#039;:ans&#039; es incorrecto",
+                    "answeredCorrectly": "Contestado correctamente",
+                    "answeredIncorrectly": "Contestado incorrectamente",
+                    "solutionLabel": "Respuesta correcta:",
+                    "inputLabel": "Vac\u00edo ingreso @num de @total",
+                    "inputHasTipLabel": "Pista disponible",
+                    "tipLabel": "Pista",
+                    "behaviour": {
+                        "enableRetry": true,
+                        "enableSolutionsButton": true,
+                        "enableCheckButton": true,
+                        "autoCheck": false,
+                        "caseSensitive": true,
+                        "showSolutionsRequiresInput": true,
+                        "separateLines": false,
+                        "confirmCheckDialog": false,
+                        "confirmRetryDialog": false,
+                        "acceptSpellingErrors": false
+                    },
+                    "scoreBarLabel": "Usted obtuvo :num de un total de :total puntos",
+                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo.",
+                    "a11yCheckingModeHeader": "Modo de revisi\u00f3n",
+                    "confirmCheck": {
+                        "header": "\u00bf Terminar ?",
+                        "body": "\u00bfEst\u00e1 seguro que desea terminar ?",
+                        "cancelLabel": "Cancelar",
+                        "confirmLabel": "Terminar"
+                    },
+                    "confirmRetry": {
+                        "header": "\u00bf Reintentar ?",
+                        "body": "\u00bf Est\u00e1 seguro de querer Reintentar ?",
+                        "cancelLabel": "Cancelar",
+                        "confirmLabel": "Confirmar"
+                    },
+                    "questions": [
+                        "<p>Letra <strong>H<\/strong> espacio <strong>d<\/strong> *0*<\/p>\n",
+                        "<p>Letra <strong>O<\/strong> espacio g2&nbsp;*0*<\/p>\n",
+                        "<p>Letra <strong>L<\/strong> espacio <strong>f<\/strong> *1*<\/p>\n",
+                        "<p>Letra <strong>A<\/strong> espacio <strong>a<\/strong> *1*<\/p>\n",
+                        "<p>Letra <strong>M<\/strong> espacio c&nbsp;*1*<\/p>\n",
+                        "<p>Letra <strong>U<\/strong> espacio <strong>d<\/strong> *1*<\/p>\n",
+                        "<p>Letra <strong>N<\/strong> espacio <strong>m<\/strong> *1*<\/p>\n",
+                        "<p>Letra <strong>D<\/strong> espacio i&nbsp;*0*<\/p>\n\n<p>&nbsp;<\/p>\n",
+                        "<p>Letra <strong>O<\/strong> espacio l&nbsp;*0*<\/p>\n"
+                    ]
+                },
+                "library": "H5P.Blanks 1.12",
+                "metadata": {
+                    "contentType": "Fill in the Blanks",
+                    "license": "U",
+                    "title": "Rellene los espacios que tienen X"
+                },
+                "subContentId": "7b2ba452-8367-4530-9063-3507c8f21011"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

@@ -1,0 +1,441 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<p>Dise\u00f1a un circuito digital que simule un sistema de control de acceso mediante una cerradura electr\u00f3nica. El sistema tiene las siguientes especificaciones:<\/p>\n\n<ol>\n\t<li>El sistema cuenta con un teclado num\u00e9rico de 4 d\u00edgitos (0-9) para ingresar un c\u00f3digo de acceso.<\/li>\n\t<li>La cerradura tiene un c\u00f3digo de acceso predeterminado de 4 d\u00edgitos.<\/li>\n\t<li>Cuando el usuario ingresa el c\u00f3digo correcto, se activa un mecanismo de desbloqueo.<\/li>\n\t<li>Si el c\u00f3digo ingresado es incorrecto, se activa una se\u00f1al de alarma.<\/li>\n\t<li>El sistema debe ser capaz de comparar el c\u00f3digo ingresado por el usuario con el c\u00f3digo predeterminado para determinar si coincide.<\/li>\n<\/ol>\n\n<p>Dise\u00f1a el circuito digital utilizando bloques combinacionales relevantes como multiplexores, decodificadores, comparadores y puertas l\u00f3gicas.<\/p>\n"
+                },
+                "library": "H5P.AdvancedText 1.1",
+                "metadata": {
+                    "contentType": "Text",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Text"
+                },
+                "subContentId": "2774cdeb-bba7-4e50-a60d-fb283d56f6df"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "introPage": {
+                        "showIntroPage": false,
+                        "startButtonText": "Comenzar Examen",
+                        "introduction": ""
+                    },
+                    "progressType": "dots",
+                    "passPercentage": 50,
+                    "disableBackwardsNavigation": false,
+                    "randomQuestions": false,
+                    "endGame": {
+                        "showResultPage": true,
+                        "showSolutionButton": true,
+                        "showRetryButton": true,
+                        "noResultMessage": "Terminado",
+                        "message": "Su resultado:",
+                        "overallFeedback": [
+                            {
+                                "from": 0,
+                                "to": 100
+                            }
+                        ],
+                        "solutionButtonText": "Mostrar soluci\u00f3n",
+                        "retryButtonText": "Reintentar",
+                        "finishButtonText": "Terminar",
+                        "showAnimations": false,
+                        "skippable": false,
+                        "skipButtonText": "Saltar video"
+                    },
+                    "texts": {
+                        "prevButton": "Pregunta anterior",
+                        "nextButton": "Pregunta siguiente",
+                        "finishButton": "Terminar",
+                        "textualProgress": "Pregunta: @current de @total preguntas",
+                        "jumpToQuestion": "Pregunta %d de %total",
+                        "questionLabel": "Pregunta",
+                        "readSpeakerProgress": "Pregunta @current de @total",
+                        "unansweredText": "No contestada",
+                        "answeredText": "Contestada",
+                        "currentQuestionText": "Pregunta actual"
+                    },
+                    "override": {
+                        "checkButton": true
+                    },
+                    "questions": [
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 funci\u00f3n cumple un multiplexor en el circuito de la cerradura electr\u00f3nica?",
+                                "answers": [
+                                    {
+                                        "text": "Seleccionar entre m\u00faltiples entradas y enviar una sola salida basada en un selector de control.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "El multiplexor es un dispositivo que permite seleccionar una de varias entradas y dirigirla a una sola salida, dependiendo de la se\u00f1al de control.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Convertir datos seriales en datos paralelos.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta descripci\u00f3n no corresponde a la funci\u00f3n principal de un multiplexor.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Comparar dos se\u00f1ales para determinar si son iguales o diferentes.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta descripci\u00f3n corresponde m\u00e1s a la funci\u00f3n de un comparador.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la funci\u00f3n principal de un decodificador en el circuito de control de acceso?",
+                                "answers": [
+                                    {
+                                        "text": "Convertir una entrada de c\u00f3digo en varias salidas, activando una salida espec\u00edfica seg\u00fan el c\u00f3digo ingresado.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "El decodificador convierte una entrada de c\u00f3digo en una o m\u00e1s salidas activas, dependiendo del c\u00f3digo de entrada.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Realizar operaciones aritm\u00e9ticas con datos binarios.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los decodificadores no se utilizan t\u00edpicamente para realizar operaciones aritm\u00e9ticas.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Almacenar datos de manera temporal.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta funci\u00f3n corresponde m\u00e1s a un registro de almacenamiento que a un decodificador.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfPor qu\u00e9 es necesario un comparador en el circuito de la cerradura electr\u00f3nica?",
+                                "answers": [
+                                    {
+                                        "text": "Para comparar el c\u00f3digo ingresado por el usuario con el c\u00f3digo predeterminado y determinar si coinciden.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "El comparador es esencial para verificar si el c\u00f3digo ingresado por el usuario coincide con el c\u00f3digo predeterminado.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Para convertir datos binarios en datos BCD.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta descripci\u00f3n no corresponde a la funci\u00f3n principal de un comparador.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Para realizar operaciones l\u00f3gicas entre diferentes se\u00f1ales.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los comparadores no se utilizan t\u00edpicamente para realizar operaciones l\u00f3gicas.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la funci\u00f3n principal de las puertas l\u00f3gicas en el dise\u00f1o del sistema de control de acceso?",
+                                "answers": [
+                                    {
+                                        "text": "Realizar operaciones l\u00f3gicas b\u00e1sicas, como AND, OR y NOT, para controlar el flujo de datos y se\u00f1ales en el circuito.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Las puertas l\u00f3gicas son fundamentales para realizar operaciones l\u00f3gicas b\u00e1sicas y controlar el flujo de datos y se\u00f1ales en el circuito.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Convertir se\u00f1ales anal\u00f3gicas en se\u00f1ales digitales.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta descripci\u00f3n no corresponde a la funci\u00f3n principal de las puertas l\u00f3gicas.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Almacenar y recuperar datos de la memoria.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Las puertas l\u00f3gicas no est\u00e1n destinadas al almacenamiento o recuperaci\u00f3n de datos.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 tipo de bloque combinacional se utilizar\u00eda para generar una se\u00f1al de alarma en caso de que el c\u00f3digo ingresado sea incorrecto?",
+                                "answers": [
+                                    {
+                                        "text": "Puerta l\u00f3gica",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Las puertas l\u00f3gicas son adecuadas para implementar funciones l\u00f3gicas simples, como generar una se\u00f1al de alarma cuando el c\u00f3digo ingresado es incorrecto.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Multiplexor",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los multiplexores no son t\u00edpicamente utilizados para generar se\u00f1ales de alarma.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Contador",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los contadores no est\u00e1n dise\u00f1ados para generar se\u00f1ales de alarma.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la ventaja de utilizar bloques combinacionales en el dise\u00f1o del sistema de control de acceso?",
+                                "answers": [
+                                    {
+                                        "text": "No tienen estados internos, lo que los hace ideales para implementar funciones l\u00f3gicas simples y r\u00e1pidas.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los bloques combinacionales son \u00fatiles para implementar funciones l\u00f3gicas simples y r\u00e1pidas sin estados internos que puedan causar problemas de sincronizaci\u00f3n.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Proporcionan almacenamiento temporal de datos.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los bloques combinacionales no almacenan datos temporalmente.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Permiten la comunicaci\u00f3n entre diferentes dispositivos electr\u00f3nicos.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esta descripci\u00f3n corresponde m\u00e1s a los bloques de interfaz que a los bloques combinacionales.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el primer paso en el dise\u00f1o del sistema de control de acceso?",
+                                "answers": [
+                                    {
+                                        "text": "Definir las especificaciones y requisitos del sistema.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Es crucial establecer claramente qu\u00e9 se espera del sistema antes de comenzar el dise\u00f1o.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Seleccionar los componentes electr\u00f3nicos necesarios.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "La selecci\u00f3n de componentes viene despu\u00e9s de comprender completamente los requisitos del sistema.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Comenzar a dise\u00f1ar el circuito.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "El dise\u00f1o del circuito es un paso posterior a la definici\u00f3n de especificaciones.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 herramienta de dise\u00f1o es com\u00fanmente utilizada para implementar circuitos digitales?",
+                                "answers": [
+                                    {
+                                        "text": "Sintetizador de VHDL o Verilog.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Estas herramientas convierten el dise\u00f1o de alto nivel en una implementaci\u00f3n espec\u00edfica de la FPGA.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Simulador de circuitos.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los simuladores son \u00fatiles para verificar el funcionamiento del circuito, pero no implementan el dise\u00f1o en hardware.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Editor de texto.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los editores de texto son herramientas para escribir c\u00f3digo, pero no son espec\u00edficamente para dise\u00f1o de circuitos digitales.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 es un diagrama de estados y por qu\u00e9 es \u00fatil en el dise\u00f1o de la m\u00e1quina de estado?",
+                                "answers": [
+                                    {
+                                        "text": "Una representaci\u00f3n visual de los diferentes estados y las transiciones entre ellos.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Un diagrama de estados proporciona una visi\u00f3n clara de c\u00f3mo se comportar\u00e1 la m\u00e1quina de estado bajo diferentes condiciones.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Una lista de todas las se\u00f1ales de entrada y salida del sistema.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Los diagramas de estados no incluyen necesariamente todas las se\u00f1ales de entrada y salida.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Una tabla que muestra todas las combinaciones posibles de entradas y salidas.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Esto describe m\u00e1s una tabla de verdad que un diagrama de estados.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el siguiente paso despu\u00e9s de dise\u00f1ar el circuito digital en VHDL o Verilog?",
+                                "answers": [
+                                    {
+                                        "text": "S\u00edntesis y implementaci\u00f3n en hardware.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "La s\u00edntesis convierte el c\u00f3digo de alto nivel en una implementaci\u00f3n espec\u00edfica de la FPGA.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Simulaci\u00f3n del circuito.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "La simulaci\u00f3n se realiza para verificar el funcionamiento del circuito antes de la implementaci\u00f3n en hardware.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Optimizaci\u00f3n del c\u00f3digo.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "La optimizaci\u00f3n es un paso previo a la s\u00edntesis, pero no es el siguiente paso despu\u00e9s del dise\u00f1o del circuito.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfPor qu\u00e9 es importante realizar pruebas exhaustivas despu\u00e9s de la implementaci\u00f3n del circuito en hardware?",
+                                "answers": [
+                                    {
+                                        "text": "Para garantizar que el circuito funcione correctamente y cumpla con los requisitos del sistema.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "Las pruebas exhaustivas son esenciales para verificar que el circuito implementado funcione como se espera.",
+                                            "chosenFeedback": "Correcto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Para encontrar errores en el dise\u00f1o original.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Si se encuentran errores durante las pruebas, estos pueden indicar problemas en el dise\u00f1o original o en la implementaci\u00f3n.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    },
+                                    {
+                                        "text": "Para optimizar el rendimiento del circuito.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "Las pruebas se centran en verificar la funcionalidad, no necesariamente en el rendimiento.",
+                                            "chosenFeedback": "Incorrecto."
+                                        }
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        }
+                    ]
+                },
+                "library": "H5P.QuestionSet 1.17",
+                "metadata": {
+                    "contentType": "Question Set",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Question Set"
+                },
+                "subContentId": "f68d06cf-8b02-4a63-9d45-aafdc90a0a31"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

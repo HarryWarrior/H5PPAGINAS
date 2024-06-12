@@ -1,0 +1,870 @@
+{
+    "introPage": {
+        "showIntroPage": false,
+        "startButtonText": "Iniciar prueba",
+        "introduction": ""
+    },
+    "progressType": "dots",
+    "passPercentage": 50,
+    "disableBackwardsNavigation": false,
+    "randomQuestions": true,
+    "endGame": {
+        "showResultPage": true,
+        "showSolutionButton": true,
+        "showRetryButton": true,
+        "noResultMessage": "Terminado",
+        "message": "Tu resultado:",
+        "scoreBarLabel": "Has conseguido @finals de @totals puntos",
+        "overallFeedback": [
+            {
+                "from": 0,
+                "to": 100
+            }
+        ],
+        "solutionButtonText": "Mostrar soluci\u00f3n",
+        "retryButtonText": "Intentar de nuevo",
+        "finishButtonText": "Terminar",
+        "submitButtonText": "Enviar",
+        "showAnimations": false,
+        "skippable": false,
+        "skipButtonText": "Saltar v\u00eddeo"
+    },
+    "override": {
+        "checkButton": true
+    },
+    "texts": {
+        "prevButton": "Pregunta anterior",
+        "nextButton": "Pregunta siguiente",
+        "finishButton": "Terminar",
+        "submitButton": "Enviar",
+        "textualProgress": "Pregunta: @current de @total preguntas",
+        "jumpToQuestion": "Pregunta %d de %total",
+        "questionLabel": "Pregunta",
+        "readSpeakerProgress": "Pregunta @current de @total",
+        "unansweredText": "No contestada",
+        "answeredText": "Contestada",
+        "currentQuestionText": "Pregunta actual",
+        "navigationLabel": "Preguntas"
+    },
+    "poolSize": 5,
+    "questions": [
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfQu\u00e9 es la encapsulaci\u00f3n en programaci\u00f3n orientada a objetos?",
+                "answers": [
+                    {
+                        "text": "Es el mecanismo que permite ocultar la implementaci\u00f3n interna de un objeto y solo exponer los m\u00e9todos p\u00fablicos.",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "Facilita el mantenimiento del c\u00f3digo",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "Al encapsular los detalles de implementaci\u00f3n, se pueden cambiar sin afectar a otras partes del programa."
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "e77f2f26-0df4-452f-a1a3-a5a5f72bc13d",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfCu\u00e1l es la diferencia entre una clase abstracta y una interfaz en Java?",
+                "answers": [
+                    {
+                        "text": "Una clase abstracta puede contener m\u00e9todos con implementaciones, mientras que en una interfaz todos los m\u00e9todos son abstractos.",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "Las interfaces permiten la implementaci\u00f3n m\u00faltiple",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "Se pueden implementar m\u00faltiples interfaces en una sola clase."
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "0722179b-4c2a-4852-9091-411f684016b0",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfCu\u00e1l es la consulta SQL correcta para obtener todos los registros de una tabla llamada \"usuarios\" en MySQL?",
+                "answers": [
+                    {
+                        "text": "SELECT * FROM usuarios;",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "SELECT * FROM users;",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "SELECT * FROM usuarios;",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "7dc3e6d2-07a6-4805-ac6c-79136096f5e6",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfQu\u00e9 es una clave primaria en una base de datos y por qu\u00e9 es importante?",
+                "answers": [
+                    {
+                        "text": "Es un campo o conjunto de campos que identifica de forma \u00fanica cada fila en una tabla. Es importante porque garantiza la integridad y la unicidad de los datos.",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "Ayuda a evitar la duplicaci\u00f3n de datos",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "Al usar claves primarias, se asegura que cada fila en una tabla sea \u00fanica."
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "e0286a34-d110-49f2-b8b1-bbc887919122",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfCu\u00e1l es la diferencia entre una clase y un objeto en programaci\u00f3n orientada a objetos?",
+                "answers": [
+                    {
+                        "text": "Una clase es una plantilla para crear objetos, mientras que un objeto es una instancia de una clase.",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "Los objetos pueden tener estado y comportamiento",
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "Los objetos pueden almacenar datos (estado) y realizar acciones (comportamiento) mediante m\u00e9todos."
+                        }
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "fd34a1d9-5fc4-4c9d-988e-eba15d44e05d",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfCu\u00e1l es la sintaxis correcta para definir una clase en Java?",
+                "answers": [
+                    {
+                        "text": "class MyClass {}",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "MyClass.class {}",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "public class MyClass {}",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "49d1f2a9-3f0a-4b35-afd7-a099e6b9f897",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "En Java, \u00bfc\u00f3mo se crea un objeto a partir de una clase?",
+                "answers": [
+                    {
+                        "text": "MyClass object = MyClass;",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "MyClass object = new MyClass();",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "object = MyClass.new;",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "1a418d7c-1a6d-4bad-b232-87509fb33644",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfCu\u00e1l es el comando SQL para seleccionar todas las columnas de una tabla llamada \u201cEstudiantes\u201d?",
+                "answers": [
+                    {
+                        "text": "SELECT ALL FROM Estudiantes;",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "SELECT * FROM Estudiantes;",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "SELECT Estudiantes;",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "854d42dc-a709-4f3b-861d-04a0ebf83067",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "\u00bfC\u00f3mo se llama al proceso de unir dos tablas en SQL?",
+                "answers": [
+                    {
+                        "text": "Combine",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "Join",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "Merge",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "38120136-e657-4c2d-a03c-66f4eb80fe96",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        },
+        {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+                "question": "En la programaci\u00f3n orientada a objetos, \u00bfqu\u00e9 es la herencia?",
+                "answers": [
+                    {
+                        "text": "Es un mecanismo donde un objeto adquiere todas las propiedades y comportamientos de la clase padre.",
+                        "correct": true,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "Es un mecanismo donde un objeto adquiere algunas propiedades y comportamientos de la clase padre.",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    },
+                    {
+                        "text": "Es un mecanismo donde un objeto adquiere ninguna propiedad y comportamiento de la clase padre.",
+                        "correct": false,
+                        "tipsAndFeedback": {}
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": true,
+                    "enableSolutionsButton": true,
+                    "enableCheckButton": true,
+                    "type": "auto",
+                    "singlePoint": false,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": false,
+                    "passPercentage": 100,
+                    "showScorePoints": true
+                },
+                "media": {
+                    "disableImageZooming": false
+                },
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "UI": {
+                    "checkAnswerButton": "Comprobar",
+                    "submitAnswerButton": "Enviar",
+                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                    "tryAgainButton": "Intentar de nuevo",
+                    "tipsLabel": "Mostrar pista",
+                    "scoreBarLabel": "Has conseguido :num de un total de :total puntos",
+                    "tipAvailable": "Pista disponible",
+                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                    "readFeedback": "Leer retroalimentaci\u00f3n",
+                    "wrongAnswer": "Respuesta incorrecta",
+                    "correctAnswer": "Respuesta correcta",
+                    "shouldCheck": "Deber\u00eda haber sido marcada",
+                    "shouldNotCheck": "No deber\u00eda haber sido marcada",
+                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                    "a11yCheck": "Revisa tus respuestas. Las respuestas se marcar\u00e1n como correcta, incorrecta o sin contestar.",
+                    "a11yShowSolution": "Mostrar la soluci\u00f3n. La tarea se calificar\u00e1 con su soluci\u00f3n correcta.",
+                    "a11yRetry": "Vuelve a intentar la tarea. Borra todas tus respuestas y empieza de nuevo."
+                },
+                "confirmCheck": {
+                    "header": "\u00bfTerminar?",
+                    "body": "\u00bfSeguro que quieres terminar ?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Terminar"
+                },
+                "confirmRetry": {
+                    "header": "\u00bfIntentar de nuevo?",
+                    "body": "\u00bfSeguro que quieres volver a intentarlo?",
+                    "cancelLabel": "Cancelar",
+                    "confirmLabel": "Confirmar"
+                }
+            },
+            "subContentId": "908e6943-71e3-4adf-933c-583596c954ec",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "Sin t\u00edtulo Multiple Choice"
+            }
+        }
+    ]
+}

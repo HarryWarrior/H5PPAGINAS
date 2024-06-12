@@ -1,0 +1,295 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<h3><strong>Objetivos del ejercicio:<\/strong><\/h3>\n\n<ol>\n\t<li>Familiarizarse con los conceptos b\u00e1sicos de la programaci\u00f3n orientada a objetos en Java.<\/li>\n\t<li>Practicar la implementaci\u00f3n de clases y m\u00e9todos.<\/li>\n\t<li>Comprender c\u00f3mo interact\u00faan diferentes clases en un programa Java.<\/li>\n\t<li>Aplicar f\u00f3rmulas matem\u00e1ticas para el c\u00e1lculo de \u00e1reas y per\u00edmetros de formas geom\u00e9tricas simples.<\/li>\n\t<li>Reforzar el conocimiento sobre el uso de interfaces en Java.<\/li>\n<\/ol>\n\n<h3><strong>Descripci\u00f3n del problema:<\/strong><\/h3>\n\n<p>Se necesita desarrollar una calculadora de formas geom\u00e9tricas en Java que permita calcular el \u00e1rea y el per\u00edmetro de diferentes figuras geom\u00e9tricas como c\u00edrculos, cuadrados y tri\u00e1ngulos. La calculadora debe ser capaz de recibir los datos necesarios para realizar los c\u00e1lculos y mostrar los resultados de manera adecuada.<\/p>\n\n<h3><strong>Ejercicio pr\u00e1ctico para los estudiantes:<\/strong><\/h3>\n\n<p>Desarrolla un programa en Java que permita calcular el \u00e1rea y el per\u00edmetro de varias formas geom\u00e9tricas. El programa debe cumplir con los siguientes requisitos:<\/p>\n\n<ol>\n\t<li>Implementa una interfaz llamada <code>FormaGeometrica<\/code> que contenga m\u00e9todos para calcular el \u00e1rea y el per\u00edmetro de una forma geom\u00e9trica.<\/li>\n\t<li>Crea clases concretas que implementen la interfaz <code>FormaGeometrica<\/code> para representar diferentes formas geom\u00e9tricas como c\u00edrculos, cuadrados y tri\u00e1ngulos.<\/li>\n\t<li>Cada clase concreta debe tener los atributos necesarios para realizar los c\u00e1lculos correspondientes (por ejemplo, el radio para el c\u00edrculo, la longitud del lado para el cuadrado, etc.).<\/li>\n\t<li>Implementa m\u00e9todos en cada clase concreta para calcular el \u00e1rea y el per\u00edmetro de la forma geom\u00e9trica correspondiente.<\/li>\n\t<li>Desarrolla una clase principal llamada <code>CalculadoraFormasGeometricas<\/code> que permita al usuario elegir qu\u00e9 forma geom\u00e9trica desea calcular y solicite los datos necesarios para realizar los c\u00e1lculos.<\/li>\n\t<li>El programa debe mostrar los resultados de los c\u00e1lculos de forma clara y legible.<\/li>\n<\/ol>\n"
+                },
+                "library": "H5P.AdvancedText 1.1",
+                "metadata": {
+                    "contentType": "Text",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Text"
+                },
+                "subContentId": "c46d76a9-ea1a-422d-a05a-0888c08cda75"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "introPage": {
+                        "showIntroPage": false,
+                        "startButtonText": "Comenzar Examen",
+                        "introduction": ""
+                    },
+                    "progressType": "dots",
+                    "passPercentage": 50,
+                    "disableBackwardsNavigation": false,
+                    "randomQuestions": true,
+                    "endGame": {
+                        "showResultPage": true,
+                        "showSolutionButton": true,
+                        "showRetryButton": true,
+                        "noResultMessage": "Terminado",
+                        "message": "Su resultado:",
+                        "overallFeedback": [
+                            {
+                                "from": 0,
+                                "to": 100
+                            }
+                        ],
+                        "solutionButtonText": "Mostrar soluci\u00f3n",
+                        "retryButtonText": "Reintentar",
+                        "finishButtonText": "Terminar",
+                        "showAnimations": false,
+                        "skippable": false,
+                        "skipButtonText": "Saltar video"
+                    },
+                    "texts": {
+                        "prevButton": "Pregunta anterior",
+                        "nextButton": "Pregunta siguiente",
+                        "finishButton": "Terminar",
+                        "textualProgress": "Pregunta: @current de @total preguntas",
+                        "jumpToQuestion": "Pregunta %d de %total",
+                        "questionLabel": "Pregunta",
+                        "readSpeakerProgress": "Pregunta @current de @total",
+                        "unansweredText": "No contestada",
+                        "answeredText": "Contestada",
+                        "currentQuestionText": "Pregunta actual"
+                    },
+                    "override": {
+                        "checkButton": true
+                    },
+                    "poolSize": 5,
+                    "questions": [
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la palabra clave utilizada para declarar una interfaz en Java?",
+                                "answers": [
+                                    {
+                                        "text": "interface",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "class",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "abstract",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfC\u00f3mo se define un m\u00e9todo en una interfaz en Java para calcular el \u00e1rea de una forma geom\u00e9trica?",
+                                "answers": [
+                                    {
+                                        "text": "double calcularArea();",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "void area();",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "int calcularArea();",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 palabra clave se utiliza para implementar una interfaz en una clase en Java?",
+                                "answers": [
+                                    {
+                                        "text": "implements",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "extends",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "interface",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la estructura para definir una clase en Java que implementa la interfaz FormaGeometrica para representar un c\u00edrculo?",
+                                "answers": [
+                                    {
+                                        "text": "class Circulo implements FormaGeometrica {...}",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "class Circulo extends FormaGeometrica {...}",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "class Circulo extends interface FormaGeometrica {...}",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la f\u00f3rmula correcta para calcular el \u00e1rea de un c\u00edrculo en Java en la clase Circulo?",
+                                "answers": [
+                                    {
+                                        "text": "return Math.PI * radio * radio;",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "return 2 * Math.PI * radio;",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "return radio * radio;",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 palabra clave se utiliza para definir un m\u00e9todo en una interfaz en Java para calcular el per\u00edmetro de una forma geom\u00e9trica?",
+                                "answers": [
+                                    {
+                                        "text": "double calcularPerimetro();",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "void perimetro();",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "int calcularPerimetro();",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la estructura para definir una clase en Java que implementa la interfaz FormaGeometrica para representar un cuadrado?",
+                                "answers": [
+                                    {
+                                        "text": "class Cuadrado implements FormaGeometrica {...}",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "class Cuadrado extends FormaGeometrica {...}",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "class Cuadrado extends interface FormaGeometrica {...}",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es la f\u00f3rmula correcta para calcular el per\u00edmetro de un cuadrado en Java en la clase Cuadrado?",
+                                "answers": [
+                                    {
+                                        "text": "return 4 * lado;",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "return lado * lado;",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "return 2 * lado;",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfC\u00f3mo se solicita al usuario ingresar el radio de un c\u00edrculo en Java?",
+                                "answers": [
+                                    {
+                                        "text": "scanner.nextDouble();",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "scanner.nextInt();",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "scanner.next();",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {}
+                            }
+                        }
+                    ]
+                },
+                "library": "H5P.QuestionSet 1.17",
+                "metadata": {
+                    "contentType": "Question Set",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Question Set"
+                },
+                "subContentId": "a7d73fe7-cf08-4811-95be-fa66eba8f1c2"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}

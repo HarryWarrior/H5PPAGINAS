@@ -1,0 +1,600 @@
+{
+    "content": [
+        {
+            "content": {
+                "params": {
+                    "text": "<h2>Utilice el siguiente c\u00f3digo en C implementado en el microcontrolador STM8s105k4 y observe su funcionamiento y responda a las siguientes preguntas:<\/h2>\n\n<p>#include &lt;stdint.h&gt;<br>\n#include \"stm8s.h\"<\/p>\n\n<p>#define LED_PIN GPIO_PIN_5<br>\n#define LED_PORT GPIOC<\/p>\n\n<p>void delay(uint16_t milliseconds) {<br>\n&nbsp; &nbsp; while (milliseconds--) {<br>\n&nbsp; &nbsp; &nbsp; &nbsp; for (uint16_t i = 0; i &lt; 5000; i++) {<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; asm(\"nop\"); \/\/ Peque\u00f1o retardo<br>\n&nbsp; &nbsp; &nbsp; &nbsp; }<br>\n&nbsp; &nbsp; }<br>\n}<\/p>\n\n<p>int main(void) {<br>\n&nbsp; &nbsp; \/\/ Configurar el pin del LED como salida<br>\n&nbsp; &nbsp; GPIO_Init(LED_PORT, LED_PIN, GPIO_MODE_OUT_PP_LOW_FAST);<\/p>\n\n<p>&nbsp; &nbsp; while (1) {<br>\n&nbsp; &nbsp; &nbsp; &nbsp; \/\/ Encender el LED<br>\n&nbsp; &nbsp; &nbsp; &nbsp; GPIO_WriteHigh(LED_PORT, LED_PIN);<br>\n&nbsp; &nbsp; &nbsp; &nbsp; delay(1000); \/\/ Retardo de 1000ms<\/p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; \/\/ Apagar el LED<br>\n&nbsp; &nbsp; &nbsp; &nbsp; GPIO_WriteLow(LED_PORT, LED_PIN);<br>\n&nbsp; &nbsp; &nbsp; &nbsp; delay(1000); \/\/ Retardo de 1000ms<br>\n&nbsp; &nbsp; }<br>\n}<br>\n&nbsp;<\/p>\n"
+                },
+                "library": "H5P.AdvancedText 1.1",
+                "metadata": {
+                    "contentType": "Text",
+                    "license": "U",
+                    "title": "Sin t\u00edtulo Text"
+                },
+                "subContentId": "8d6ac817-15d8-44bd-a6d8-4c5c3f487f62"
+            },
+            "useSeparator": "auto"
+        },
+        {
+            "content": {
+                "params": {
+                    "introPage": {
+                        "showIntroPage": false,
+                        "startButtonText": "Comenzar Examen",
+                        "introduction": ""
+                    },
+                    "progressType": "dots",
+                    "passPercentage": 50,
+                    "disableBackwardsNavigation": false,
+                    "randomQuestions": true,
+                    "endGame": {
+                        "showResultPage": true,
+                        "showSolutionButton": true,
+                        "showRetryButton": true,
+                        "noResultMessage": "Terminado",
+                        "message": "Su resultado:",
+                        "overallFeedback": [
+                            {
+                                "from": 0,
+                                "to": 100
+                            }
+                        ],
+                        "solutionButtonText": "Mostrar soluci\u00f3n",
+                        "retryButtonText": "Reintentar",
+                        "finishButtonText": "Terminar",
+                        "showAnimations": false,
+                        "skippable": false,
+                        "skipButtonText": "Saltar video"
+                    },
+                    "texts": {
+                        "prevButton": "Pregunta anterior",
+                        "nextButton": "Pregunta siguiente",
+                        "finishButton": "Terminar",
+                        "textualProgress": "Pregunta: @current de @total preguntas",
+                        "jumpToQuestion": "Pregunta %d de %total",
+                        "questionLabel": "Pregunta",
+                        "readSpeakerProgress": "Pregunta @current de @total",
+                        "unansweredText": "No contestada",
+                        "answeredText": "Contestada",
+                        "currentQuestionText": "Pregunta actual"
+                    },
+                    "override": {
+                        "checkButton": true
+                    },
+                    "questions": [
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 funci\u00f3n se utiliza para establecer un retardo en el c\u00f3digo?",
+                                "answers": [
+                                    {
+                                        "text": "delay()",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "wait()",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "pause()",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "sleep()",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "cdea5221-6324-45a7-a910-d11bb55cf1dd",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 macro se utiliza para definir el pin del LED?",
+                                "answers": [
+                                    {
+                                        "text": "LED_PORT",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "LED_PIN",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "LED_OUTPUT",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "LED_STATE",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "d6bc1dd7-1c39-4b8d-b5af-894e4bcf19ca",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 funci\u00f3n se utiliza para configurar un pin como salida?",
+                                "answers": [
+                                    {
+                                        "text": "GPIO_Setup()",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Pin_Config()",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Pin_Setup()",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "GPIO_Init()",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "dfaa370e-bce3-4f8d-a9d2-adfee3b1c9b4",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el prop\u00f3sito de la funci\u00f3n \"main()\" en este c\u00f3digo?",
+                                "answers": [
+                                    {
+                                        "text": "Es una funci\u00f3n auxiliar para configurar los pines GPIO.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Es una funci\u00f3n para manejar interrupciones.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Es la funci\u00f3n principal que controla el flujo de ejecuci\u00f3n del programa.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Es una funci\u00f3n para inicializar el hardware.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "2a9e4a6f-2921-456e-83b0-0debc3ea865d",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfQu\u00e9 instrucci\u00f3n se utiliza para encender el LED?",
+                                "answers": [
+                                    {
+                                        "text": "GPIO_WriteLow(LED_PORT, LED_PIN);",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "GPIO_Toggle(LED_PORT, LED_PIN);",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "GPIO_WriteHigh(LED_PORT, LED_PIN);",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "GPIO_Read(LED_PORT, LED_PIN);",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "16c19b75-992d-405b-a189-2b346c1dcbfe",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        },
+                        {
+                            "library": "H5P.MultiChoice 1.14",
+                            "params": {
+                                "question": "\u00bfCu\u00e1l es el prop\u00f3sito de la funci\u00f3n \"delay()\" en este c\u00f3digo?",
+                                "answers": [
+                                    {
+                                        "text": "Configurar el tiempo de encendido y apagado del LED.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Crear un retardo en milisegundos.",
+                                        "correct": true,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Manejar interrupciones externas.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    },
+                                    {
+                                        "text": "Leer el estado del LED.",
+                                        "correct": false,
+                                        "tipsAndFeedback": {}
+                                    }
+                                ],
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "auto",
+                                    "singlePoint": false,
+                                    "randomAnswers": true,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Comprobar",
+                                    "showSolutionButton": "Mostrar soluci\u00f3n",
+                                    "tryAgainButton": "Reintentar",
+                                    "tipsLabel": "Mostrar consejo",
+                                    "scoreBarLabel": "Tienes :num de :total puntos",
+                                    "tipAvailable": "Consejo disponible",
+                                    "feedbackAvailable": "Retroalimentaci\u00f3n disponible",
+                                    "readFeedback": "Leer comentarios",
+                                    "wrongAnswer": "Respuesta incorrecta",
+                                    "correctAnswer": "Respuesta correcta",
+                                    "shouldCheck": "Deber\u00eda haber sido verificado",
+                                    "shouldNotCheck": "No deber\u00eda haber sido verificado",
+                                    "noInput": "Por favor responde antes de ver la soluci\u00f3n",
+                                    "a11yCheck": "Revisar las respuestas. Las respuestas ser\u00e1n marcadas como correcta, incorrecta o sin contestar.",
+                                    "a11yShowSolution": "Mostrar la soluci\u00f3n. El trabajo ser\u00e1 marcado con su soluci\u00f3n correcta.",
+                                    "a11yRetry": "Reintentar el trabajo. Reiniciar todas las respuestas e iniciar el trabajo de nuevo."
+                                },
+                                "confirmCheck": {
+                                    "header": "\u00bfTerminar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas terminar?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Finalizar"
+                                },
+                                "confirmRetry": {
+                                    "header": "\u00bfReintentar?",
+                                    "body": "\u00bfEst\u00e1s seguro de que deseas volver a intentarlo?",
+                                    "cancelLabel": "Cancelar",
+                                    "confirmLabel": "Confirmar"
+                                }
+                            },
+                            "subContentId": "74d45fa1-d180-4709-b4f3-74c027076365",
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Sin t\u00edtulo Multiple Choice"
+                            }
+                        }
+                    ]
+                },
+                "library": "H5P.QuestionSet 1.17",
+                "metadata": {
+                    "contentType": "Question Set",
+                    "license": "U",
+                    "title": "responda a las siguientes preguntas seg\u00fan el c\u00f3digo"
+                },
+                "subContentId": "5dcb55eb-f7e3-4254-918d-5cf0a3683347"
+            },
+            "useSeparator": "auto"
+        }
+    ]
+}
